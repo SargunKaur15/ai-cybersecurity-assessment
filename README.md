@@ -7,7 +7,7 @@ Two separate, reproducible projects built for the cybersecurity assessment, each
 | **14**: Evaluate an AI Security Claim | [task-14-ai-phishing-evaluation](task-14-ai-phishing-evaluation/) | Tests the claim *"AI can identify phishing messages"* with a TF-IDF + Logistic Regression model on synthetic messages, including a stronger test that holds out entire message templates, then probes where it fails. |
 | **13**: Build a Small Defensive Security Tool | [task-13-security-log-analyzer](task-13-security-log-analyzer/) | A CLI that summarises synthetic authentication logs and flags suspicious patterns with explainable severity and evidence. |
 
-Each folder has its own `README.md` (objectives, files, setup, execution, test results) and a technical report, `report.md`. The PDF reports are in [reports/](reports/). A requirement-by-requirement mapping is in [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
+Each folder has its own `README.md` (objectives, files, setup, execution, test results) and a technical report, `report.md`. The PDF reports are in [reports/](reports/).
 
 ## Objectives
 
@@ -19,7 +19,6 @@ Each folder has its own `README.md` (objectives, files, setup, execution, test r
 ```
 ai-cybersecurity-assessment/
 ├── README.md
-├── SUBMISSION_CHECKLIST.md
 ├── requirements.txt
 ├── pytest.ini
 ├── .gitignore
