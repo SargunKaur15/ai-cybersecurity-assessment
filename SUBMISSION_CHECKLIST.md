@@ -79,7 +79,7 @@ Submission rules from the PDF: submit a Git repository or a documentation file; 
 - [x] **Repository URL:** https://github.com/SargunKaur15/ai-cybersecurity-assessment (public).
 - [x] **Screenshots:** four real console screenshots per task are in each `screenshots/` folder and embedded in report section 12 (capture method: see each `screenshots/README.md`).
 - [x] `python -m pytest -q` shows 155 passed; `python reports/verify_reports.py` prints `OK`.
-- [ ] **Read both reports end to end.** Be ready to explain every number, the template-held-out result, and each planted scenario (S1-S7). Check the assessment's rules on AI assistance and disclose it if required (the commit history credits Claude as co-author).
+- [ ] **Read both reports end to end.** Be ready to explain every number, the template-held-out result, and each planted scenario (S1-S7). Check the assessment's rules on AI assistance and disclose it if required.
 - [ ] Open both PDFs and look at every page.
 - [ ] Open the repository link in a private/incognito window to confirm it loads without signing in.
 
