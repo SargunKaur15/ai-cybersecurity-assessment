@@ -1,0 +1,17 @@
+template_id,category,label,n,errors,mean_phishing_probability
+SL01,bank_alert,legitimate,12,0,0.289
+SL02,otp,legitimate,14,0,0.266
+SL03,appointment,legitimate,17,0,0.235
+SL04,package_ok,legitimate,13,0,0.13
+SL05,club,legitimate,15,0,0.163
+SL06,utility,legitimate,20,0,0.242
+SL07,school,legitimate,18,0,0.31
+SL08,friend,legitimate,11,0,0.267
+SP01,bank_card_blocked,phishing,8,0,0.758
+SP02,crypto,phishing,16,0,0.808
+SP03,tax_refund,phishing,9,0,0.79
+SP04,social_login,phishing,7,0,0.816
+SP05,job_offer,phishing,11,0,0.727
+SP06,toll_fee,phishing,13,0,0.759
+SP07,family_emergency,phishing,9,9,0.441
+SP08,subscription,phishing,7,0,0.798

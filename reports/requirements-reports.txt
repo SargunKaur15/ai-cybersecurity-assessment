@@ -1,0 +1,4 @@
+# Only needed to rebuild the PDF reports (python reports/build_reports.py); not needed to run the projects.
+# A Chromium-based browser (Microsoft Edge or Google Chrome) is also required for the HTML -> PDF step.
+markdown==3.11.2
+pymupdf==2.0

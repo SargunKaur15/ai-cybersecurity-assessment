@@ -1,0 +1,31 @@
+pushes_toward,feature,coefficient
+legitimate,on,-1.5165
+legitimate,is,-1.214
+legitimate,from,-1.0452
+legitimate,no,-1.0221
+legitimate,at https,-0.9379
+legitimate,days,-0.7432
+legitimate,track,-0.6581
+legitimate,or,-0.6538
+legitimate,payment is,-0.65
+legitimate,on the,-0.6372
+legitimate,reminder,-0.632
+legitimate,benefits,-0.6295
+legitimate,report,-0.6283
+legitimate,00,-0.6246
+legitimate,at,-0.6208
+phishing,details,1.6414
+phishing,http,1.6395
+phishing,secure,1.1908
+phishing,confirm,1.1836
+phishing,test,1.1511
+phishing,view,1.0331
+phishing,keep,0.9999
+phishing,form,0.9786
+phishing,signin,0.9657
+phishing,payroll,0.9523
+phishing,example invalid,0.9342
+phishing,invalid,0.9342
+phishing,login,0.8962
+phishing,reset,0.8938
+phishing,update,0.8783

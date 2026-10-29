@@ -1,0 +1,25 @@
+message_id,text,label,probe_type
+H01,"Hi Sam, quick one: could you send me the current payroll spreadsheet when you get a moment? I need it for a meeting in ten minutes.",phishing,plain_request_no_link
+H02,"Hello, our records show a small discrepancy on your account. When convenient, please reply with the last four digits of your card and your date of birth so we can correct it.",phishing,calm_tone_data_request
+H03,"Your acc0unt has been l0cked. Ver1fy it at h t t p s://secure-login.example.invalid/ now",phishing,character_obfuscation
+H04,"Please c.o.n.f.i.r.m your p@ssword at example-helpdesk.test to keep your mailbox.",phishing,character_obfuscation
+H05,"Thanks for the call earlier. As discussed, here is the link to the shared folder with the contract: http://docs-viewer.example.invalid/open",phishing,benign_wording_malicious_link
+H06,"Good afternoon, I am updating our vendor records. Our bank has changed, so please use the account below for future transfers: 00-00-00 12345678. Thank you for your help.",phishing,payment_diversion
+H07,"Scan the attached QR code with your phone to review your updated benefits statement.",phishing,qr_code_no_url
+H08,"Hi team, thanks for a productive week. The roadmap review went well, the new starters have settled in, and lunch on Friday is on me. By the way, please re-enter your mailbox login at http://mail-support.test/verify so the new filters apply to your account.",phishing,benign_text_padding
+H09,"Your subscription has been renewed for $499.99. If you did not authorise this, call our billing line on 555-0100 to cancel.",phishing,callback_scam
+H10,"Estimado usuario, su cuenta sera suspendida. Verifique sus datos en http://cuenta-segura.example.invalid/ hoy.",phishing,non_english
+H11,"Hi, are you free? Need a quick favour.",phishing,minimal_opener
+H12,"Hello, I am from IT. To finish your laptop upgrade I need your username and temporary password. Please reply with them.",phishing,impersonation_no_link
+H13,"URGENT: your password expires today. Please change it now via https://intranet.example.com/it/password to avoid being locked out.",legitimate,urgent_with_link
+H14,"Final notice: your parking permit expires in 2 days. Renew it at https://portal.example.com/facilities to avoid a fine.",legitimate,urgent_with_link
+H15,"Security alert: we blocked a sign-in attempt from an unrecognised device. No action is required. If you want to review your recent activity, open the app directly.",legitimate,security_wording
+H16,"Please verify your bank details are correct on your next payslip. If anything is wrong, speak to HR in person or call the number on the intranet.",legitimate,security_wording
+H17,"Your account will be suspended on 30 June as part of the planned decommissioning of the old VPN. Move to the new client following the guide on the intranet.",legitimate,suspension_wording
+H18,"Dear customer, your refund of $23.50 has been processed to your original payment method. It will appear in 3-5 working days.",legitimate,refund_wording
+H19,"Click the link to join the all-hands meeting: https://calendar.example.com/event. The call password is in the calendar invite.",legitimate,click_link_password
+H20,"Invoice INV-5521 is overdue. Please arrange payment by bank transfer to the account on the original invoice, or contact accounts if you disagree.",legitimate,overdue_invoice
+H21,"Congratulations on your 5-year anniversary! Your gift voucher is waiting at reception.",legitimate,prize_wording
+H22,"We have detected unusual activity: your report export ran 40 times today. Please check that your script is not stuck in a loop.",legitimate,unusual_activity_wording
+H23,"Hi, it is me, I lost my phone. This is my new number, can you save it? Thanks!",legitimate,lost_phone_wording
+H24,"IMPORTANT: confirm your identity at the front desk when collecting your visitor badge tomorrow. Bring photo ID.",legitimate,identity_wording

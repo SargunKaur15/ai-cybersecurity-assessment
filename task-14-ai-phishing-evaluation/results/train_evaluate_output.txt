@@ -1,0 +1,12 @@
+Samples: total=1000 train=750 test=250
+Test class distribution: {'legitimate': 150, 'phishing': 100}
+Held-out templates: ['L01', 'L04', 'L09', 'L18', 'P02', 'P03', 'P04', 'P12']
+test_metrics                       n= 250 acc=1.0000 prec=1.0000 rec=1.0000 f1=1.0000  TN=150 FP=0 FN=0 TP=100
+baseline_majority_class            n= 250 acc=0.6000 prec=0.0000 rec=0.0000 f1=0.0000  TN=150 FP=0 FN=100 TP=0
+robustness_urls_removed_from_test  n= 250 acc=1.0000 prec=1.0000 rec=1.0000 f1=1.0000  TN=150 FP=0 FN=0 TP=100
+template_holdout_split             n= 241 acc=0.8797 prec=1.0000 rec=0.7071 f1=0.8284  TN=142 FP=0 FN=29 TP=70
+leave_one_template_out             n=1000 acc=0.8650 prec=0.9102 rec=0.7350 f1=0.8133  TN=571 FP=29 FN=106 TP=294
+shifted_distribution               n= 200 acc=0.9550 prec=1.0000 rec=0.8875 f1=0.9404  TN=120 FP=0 FN=9 TP=71
+adversarial_handwritten            n=  24 acc=0.7083 prec=0.8571 rec=0.5000 f1=0.6316  TN=11 FP=1 FN=6 TP=6
+Test confusion matrix (TN, FP, FN, TP): [150, 0, 0, 100]
+Outputs written to D:\ai-cybersecurity-assessment\task-14-ai-phishing-evaluation\results

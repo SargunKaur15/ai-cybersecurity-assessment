@@ -1,0 +1,30 @@
+message_id,text,label,category,template_id,predicted_label,phishing_probability,error_type
+M0072,"Dear Lena, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12,legitimate,0.2565,false_negative
+M0080,"Dear Omar, please find the attached scan of the signed contract. Enable macros to view the content.",phishing,macro_attachment,P12,legitimate,0.2651,false_negative
+M0097,"Dear Jordan, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12,legitimate,0.2411,false_negative
+M0159,"Hi Omar, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12,legitimate,0.2531,false_negative
+M0163,"Good morning Sam, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12,legitimate,0.2187,false_negative
+M0167,"Dear Taylor, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12,legitimate,0.2451,false_negative
+M0181,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12,legitimate,0.2502,false_negative
+M0236,"Good morning Priya, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12,legitimate,0.229,false_negative
+M0280,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12,legitimate,0.216,false_negative
+M0339,"Hello Ravi, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12,legitimate,0.2252,false_negative
+M0500,"Good morning Taylor, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12,legitimate,0.2375,false_negative
+M0509,"Hi Sam, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12,legitimate,0.2271,false_negative
+M0538,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Best regards",phishing,macro_attachment,P12,legitimate,0.216,false_negative
+M0565,"FW: Hi Ravi, please find the attached scan of the signed contract. Enable macros to view the content.",phishing,macro_attachment,P12,legitimate,0.2739,false_negative
+M0595,"Good morning Diego, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12,legitimate,0.2167,false_negative
+M0600,"good morning lena, please find the attached scan of the signed contract. enable macros to view the content.",phishing,macro_attachment,P12,legitimate,0.2699,false_negative
+M0637,"hello, please find the attached scan of the signed contract. enable macros to view the content. kind regards.",phishing,macro_attachment,P12,legitimate,0.2184,false_negative
+M0645,"FW: Hi Chen, invoice INV-2320 for $299.11 is overdue. Open the secure document to review payment details: https://example.com-helpdesk.example.org/reset",phishing,invoice,P04,legitimate,0.47,false_negative
+M0647,"Hi Diego, invoice INV-6277 for $2067.97 is overdue. Open the secure document to review payment details: https://example.com-helpdesk.example.org/reset",phishing,invoice,P04,legitimate,0.4776,false_negative
+M0715,"Good morning Maria, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12,legitimate,0.2233,false_negative
+M0726,"Hi Lena, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12,legitimate,0.2311,false_negative
+M0750,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12,legitimate,0.2184,false_negative
+M0760,"Hi Alex, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12,legitimate,0.2574,false_negative
+M0785,"hello, please find the attached scan of the signed contract. enable macros to view the content. best regards.",phishing,macro_attachment,P12,legitimate,0.216,false_negative
+M0900,"Good morning Nina, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12,legitimate,0.2157,false_negative
+M0901,"Dear Ravi, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12,legitimate,0.2194,false_negative
+M0939,"Dear Ravi, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12,legitimate,0.2381,false_negative
+M0982,"hello lena, please find the attached scan of the signed contract. enable macros to view the content. kind regards.",phishing,macro_attachment,P12,legitimate,0.2345,false_negative
+M0998,"Dear Chen, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12,legitimate,0.2468,false_negative

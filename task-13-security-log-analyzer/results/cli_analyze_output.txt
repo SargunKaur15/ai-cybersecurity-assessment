@@ -1,0 +1,21 @@
+$ python src/cli.py analyze --input data/sample_auth_logs.csv
+Authentication log summary: sample_auth_logs.csv
+  Total events:        119
+  Successful logins:   34
+  Failed logins:       55
+  Unique users:        18
+  Unique source IPs:   24
+  Time range (UTC):    2024-03-04T08:13:39Z -> 2024-03-04T17:26:47Z
+
+Alerts: 5 (high 0, medium 4, low 1)
+  [A001] MEDIUM MULTI_ACCOUNT_FAILURES_FROM_SOURCE  user=5 accounts  src=192.0.2.10  events=5  2024-03-04T08:30:00Z
+  [A002] MEDIUM REPEATED_FAILED_LOGINS  user=admin  src=203.0.113.50  events=12  2024-03-04T10:03:00Z
+  [A003] MEDIUM SUCCESS_AFTER_REPEATED_FAILURES  user=carol  src=203.0.113.23  events=7  2024-03-04T11:20:00Z
+  [A004] MEDIUM MULTI_ACCOUNT_FAILURES_FROM_SOURCE  user=8 accounts  src=203.0.113.77  events=8  2024-03-04T13:05:00Z
+  [A005] LOW    REPEATED_FAILED_LOGINS  user=carol  src=203.0.113.23  events=6  2024-03-04T11:20:00Z
+
+Alerts mark patterns that warrant investigation. They are not confirmed incidents, and the absence of an alert
+does not mean the activity is safe. Intended for synthetic or authorised logs only.
+Wrote results\report.json
+Wrote results\alerts.csv
+exit code: 0

@@ -1,0 +1,10 @@
+message_id,text,label,category,template_id,predicted_label,phishing_probability,error_type
+S0002,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $2005.75 to this account today? I will pay you back",phishing,family_emergency,SP07,legitimate,0.4263,false_negative
+S0029,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $329.02 to this account asap? I will pay you back.",phishing,family_emergency,SP07,legitimate,0.4334,false_negative
+S0066,"FW: Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $3227.28 to this account now? I will pay you back",phishing,family_emergency,SP07,legitimate,0.4549,false_negative
+S0068,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $3267.22 to this account now? I will pay you back.",phishing,family_emergency,SP07,legitimate,0.4473,false_negative
+S0071,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $1933.63 to this account now? I will pay you back.",phishing,family_emergency,SP07,legitimate,0.4553,false_negative
+S0140,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $3883.72 to this account now? I will pay you back.",phishing,family_emergency,SP07,legitimate,0.4716,false_negative
+S0168,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $1629.87 to this account asap? I will pay you back.",phishing,family_emergency,SP07,legitimate,0.4334,false_negative
+S0190,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $2730.29 to this account asap? I will pay you back.",phishing,family_emergency,SP07,legitimate,0.4334,false_negative
+S0199,"Hi, it's me, I lost my phone and I'm stuck abroad. Can you transfer $993.42 to this account today? I will pay you back.",phishing,family_emergency,SP07,legitimate,0.4167,false_negative

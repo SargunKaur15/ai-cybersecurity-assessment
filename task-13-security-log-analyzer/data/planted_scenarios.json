@@ -1,0 +1,149 @@
+{
+  "seed": 42,
+  "note": "Synthetic data. Describes what was planted and what the default configuration is expected to report.",
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "benign_fumble",
+      "benign": true,
+      "usernames": [
+        "dana"
+      ],
+      "source_ip": "198.51.100.14",
+      "description": "3 failed logins then a success within ~100 s, from the user's usual address.",
+      "expected_default_alerts": []
+    },
+    {
+      "id": "S2",
+      "name": "repeated_failures_no_success",
+      "benign": false,
+      "usernames": [
+        "admin"
+      ],
+      "source_ip": "203.0.113.50",
+      "description": "12 failed logins for 'admin' in about 4 minutes, never followed by a success.",
+      "expected_default_alerts": [
+        {
+          "rule": "REPEATED_FAILED_LOGINS",
+          "severity": "medium",
+          "usernames": [
+            "admin"
+          ],
+          "source_ip": "203.0.113.50"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "success_after_repeated_failures",
+      "benign": false,
+      "usernames": [
+        "carol"
+      ],
+      "source_ip": "203.0.113.23",
+      "description": "6 failed logins in ~4 minutes, then a success ~60 s after the last failure, same address.",
+      "expected_default_alerts": [
+        {
+          "rule": "REPEATED_FAILED_LOGINS",
+          "severity": "low",
+          "usernames": [
+            "carol"
+          ],
+          "source_ip": "203.0.113.23"
+        },
+        {
+          "rule": "SUCCESS_AFTER_REPEATED_FAILURES",
+          "severity": "medium",
+          "usernames": [
+            "carol"
+          ],
+          "source_ip": "203.0.113.23"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "password_spray_pattern",
+      "benign": false,
+      "usernames": [
+        "alice",
+        "bob",
+        "erin",
+        "frank",
+        "ivan",
+        "judy",
+        "kim",
+        "leo"
+      ],
+      "source_ip": "203.0.113.77",
+      "description": "1 failed login each for 8 accounts in ~6 minutes from one address; one later success for 'frank'.",
+      "expected_default_alerts": [
+        {
+          "rule": "MULTI_ACCOUNT_FAILURES_FROM_SOURCE",
+          "severity": "medium",
+          "usernames": [
+            "alice",
+            "bob",
+            "erin",
+            "frank",
+            "ivan",
+            "judy",
+            "kim",
+            "leo"
+          ],
+          "source_ip": "203.0.113.77"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "shared_nat_false_positive",
+      "benign": true,
+      "usernames": [
+        "nina",
+        "omar",
+        "pat",
+        "quinn",
+        "ravi"
+      ],
+      "source_ip": "192.0.2.10",
+      "description": "5 colleagues behind one office address each fail once during an SSO hiccup, then succeed. Benign by construction.",
+      "expected_default_alerts": [
+        {
+          "rule": "MULTI_ACCOUNT_FAILURES_FROM_SOURCE",
+          "severity": "medium",
+          "usernames": [
+            "nina",
+            "omar",
+            "pat",
+            "quinn",
+            "ravi"
+          ],
+          "source_ip": "192.0.2.10"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "slow_low_rate_attempts",
+      "benign": false,
+      "usernames": [
+        "grace"
+      ],
+      "source_ip": "203.0.113.99",
+      "description": "12 failed logins spread over ~3 hours (one per 15 min). Missed by design with default settings.",
+      "expected_default_alerts": []
+    },
+    {
+      "id": "S7",
+      "name": "distributed_single_account",
+      "benign": false,
+      "usernames": [
+        "heidi"
+      ],
+      "source_ip": "203.0.113.101-107",
+      "description": "6 failures for one account, each from a different address, then a success from a 7th. Missed by design.",
+      "expected_default_alerts": []
+    }
+  ]
+}

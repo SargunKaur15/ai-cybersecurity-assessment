@@ -1,0 +1,4 @@
+$ python src/cli.py generate
+Wrote 119 synthetic events to D:\ai-cybersecurity-assessment\task-13-security-log-analyzer\data\sample_auth_logs.csv
+Wrote scenario descriptions to D:\ai-cybersecurity-assessment\task-13-security-log-analyzer\data\planted_scenarios.json
+exit code: 0

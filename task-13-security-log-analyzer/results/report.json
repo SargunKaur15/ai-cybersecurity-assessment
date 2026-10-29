@@ -1,0 +1,559 @@
+{
+  "tool": "auth-log-analyzer",
+  "version": "1.0.0",
+  "input_file": "sample_auth_logs.csv",
+  "notice": "Alerts mark patterns that warrant investigation. They are not confirmed incidents, and the absence of an alert does not mean the activity is safe. Intended for synthetic or authorised logs only.",
+  "config": {
+    "failure_threshold": 5,
+    "window_minutes": 10.0,
+    "success_window_minutes": 10.0,
+    "spray_user_threshold": 5,
+    "max_evidence_rows": 50
+  },
+  "summary": {
+    "total_events": 119,
+    "successful_logins": 34,
+    "failed_logins": 55,
+    "unique_users": 18,
+    "unique_source_ips": 24,
+    "first_event": "2024-03-04T08:13:39Z",
+    "last_event": "2024-03-04T17:26:47Z",
+    "events_by_type": {
+      "login": 89,
+      "logout": 25,
+      "mfa_challenge": 4,
+      "password_reset": 1
+    },
+    "top_failed_source_ips": [
+      {
+        "source_ip": "203.0.113.50",
+        "failed_logins": 12
+      },
+      {
+        "source_ip": "203.0.113.99",
+        "failed_logins": 12
+      },
+      {
+        "source_ip": "203.0.113.77",
+        "failed_logins": 8
+      },
+      {
+        "source_ip": "192.0.2.10",
+        "failed_logins": 6
+      },
+      {
+        "source_ip": "203.0.113.23",
+        "failed_logins": 6
+      }
+    ]
+  },
+  "alert_counts": {
+    "total": 5,
+    "high": 0,
+    "medium": 4,
+    "low": 1
+  },
+  "alerts": [
+    {
+      "alert_id": "A001",
+      "rule": "MULTI_ACCOUNT_FAILURES_FROM_SOURCE",
+      "severity": "medium",
+      "title": "Failed logins against many accounts from one source",
+      "description": "192.0.2.10 failed to log in to 5 distinct accounts (5 failed attempts) between 2024-03-04T08:30:00Z and 2024-03-04T08:35:00Z. This pattern is associated with password spraying, but shared gateways/NAT, single sign-on outages and scanners can look the same. Requires investigation.",
+      "usernames": [
+        "nina",
+        "omar",
+        "pat",
+        "quinn",
+        "ravi"
+      ],
+      "source_ip": "192.0.2.10",
+      "first_seen": "2024-03-04T08:30:00Z",
+      "last_seen": "2024-03-04T08:35:00Z",
+      "event_count": 5,
+      "severity_reasons": [
+        "5 distinct accounts failed from this address within 10 min (threshold 5): base severity medium",
+        "5 of the 5 targeted account(s) had a successful login from this address shortly afterwards (nina, omar, pat, quinn, ravi); severity not changed because this also happens in benign cases, but check those accounts first"
+      ],
+      "recommended_steps": [
+        "Check whether the source address is a known shared gateway, VPN or office NAT.",
+        "Look for a service outage or recent SSO/password-policy change around these times.",
+        "Review the targeted accounts' other recent activity, starting with any that later succeeded.",
+        "If the source is unexpected, consider temporary rate limiting or blocking per your policy."
+      ],
+      "evidence": [
+        {
+          "line": 8,
+          "timestamp": "2024-03-04T08:30:00Z",
+          "username": "nina",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 9,
+          "timestamp": "2024-03-04T08:30:40Z",
+          "username": "nina",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "success"
+        },
+        {
+          "line": 10,
+          "timestamp": "2024-03-04T08:31:15Z",
+          "username": "omar",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 11,
+          "timestamp": "2024-03-04T08:31:55Z",
+          "username": "omar",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "success"
+        },
+        {
+          "line": 12,
+          "timestamp": "2024-03-04T08:32:30Z",
+          "username": "pat",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 13,
+          "timestamp": "2024-03-04T08:33:10Z",
+          "username": "pat",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "success"
+        },
+        {
+          "line": 14,
+          "timestamp": "2024-03-04T08:33:45Z",
+          "username": "quinn",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 15,
+          "timestamp": "2024-03-04T08:34:25Z",
+          "username": "quinn",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "success"
+        },
+        {
+          "line": 16,
+          "timestamp": "2024-03-04T08:35:00Z",
+          "username": "ravi",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 17,
+          "timestamp": "2024-03-04T08:35:40Z",
+          "username": "ravi",
+          "source_ip": "192.0.2.10",
+          "event_type": "login",
+          "status": "success"
+        }
+      ],
+      "evidence_omitted": 0,
+      "disposition": "Requires investigation; not a confirmed incident."
+    },
+    {
+      "alert_id": "A002",
+      "rule": "REPEATED_FAILED_LOGINS",
+      "severity": "medium",
+      "title": "Repeated failed logins for one account from one source",
+      "description": "12 failed logins for 'admin' from 203.0.113.50 between 2024-03-04T10:03:00Z and 2024-03-04T10:06:45Z (threshold 5 within 10 min). This may indicate password guessing, but a user mistyping a password or a misconfigured client can produce the same pattern. Requires investigation.",
+      "usernames": [
+        "admin"
+      ],
+      "source_ip": "203.0.113.50",
+      "first_seen": "2024-03-04T10:03:00Z",
+      "last_seen": "2024-03-04T10:06:45Z",
+      "event_count": 12,
+      "severity_reasons": [
+        "12 failures within 10 min meets threshold 5: base severity low",
+        "12 failures is at least twice the threshold (10): raised to medium"
+      ],
+      "recommended_steps": [
+        "Ask whether the account owner recognises this activity.",
+        "Check the account's lockout, MFA and recent password-reset state.",
+        "Review other activity from the same source address in the same period.",
+        "If the source is unexpected, consider rate limiting or blocking per your policy."
+      ],
+      "evidence": [
+        {
+          "line": 30,
+          "timestamp": "2024-03-04T10:03:00Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 31,
+          "timestamp": "2024-03-04T10:03:16Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 32,
+          "timestamp": "2024-03-04T10:03:37Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 33,
+          "timestamp": "2024-03-04T10:03:58Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 34,
+          "timestamp": "2024-03-04T10:04:22Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 36,
+          "timestamp": "2024-03-04T10:04:44Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 37,
+          "timestamp": "2024-03-04T10:05:07Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 38,
+          "timestamp": "2024-03-04T10:05:26Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 39,
+          "timestamp": "2024-03-04T10:05:49Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 40,
+          "timestamp": "2024-03-04T10:06:04Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 41,
+          "timestamp": "2024-03-04T10:06:29Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 42,
+          "timestamp": "2024-03-04T10:06:45Z",
+          "username": "admin",
+          "source_ip": "203.0.113.50",
+          "event_type": "login",
+          "status": "failure"
+        }
+      ],
+      "evidence_omitted": 0,
+      "disposition": "Requires investigation; not a confirmed incident."
+    },
+    {
+      "alert_id": "A003",
+      "rule": "SUCCESS_AFTER_REPEATED_FAILURES",
+      "severity": "medium",
+      "title": "Successful login shortly after repeated failures",
+      "description": "A successful login for 'carol' from 203.0.113.23 at 2024-03-04T11:24:45Z came 60 s after 6 failed logins from the same address. This is consistent with a guessed or later-remembered password; the data cannot show which. Requires investigation (not a confirmed compromise).",
+      "usernames": [
+        "carol"
+      ],
+      "source_ip": "203.0.113.23",
+      "first_seen": "2024-03-04T11:20:00Z",
+      "last_seen": "2024-03-04T11:24:45Z",
+      "event_count": 7,
+      "severity_reasons": [
+        "success followed 6 repeated failures from the same address: base severity medium (a user who then remembers the password looks identical)"
+      ],
+      "recommended_steps": [
+        "Contact the account owner through a separate, trusted channel and confirm the login was theirs.",
+        "Review what the session did after logging in, using authorised audit logs.",
+        "If not recognised, follow your incident process: reset credentials, revoke sessions, check MFA enrolment.",
+        "Check whether the source address appears in other alerts."
+      ],
+      "evidence": [
+        {
+          "line": 48,
+          "timestamp": "2024-03-04T11:20:00Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 49,
+          "timestamp": "2024-03-04T11:20:45Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 51,
+          "timestamp": "2024-03-04T11:21:30Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 53,
+          "timestamp": "2024-03-04T11:22:15Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 54,
+          "timestamp": "2024-03-04T11:23:00Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 55,
+          "timestamp": "2024-03-04T11:23:45Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 56,
+          "timestamp": "2024-03-04T11:24:45Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "success"
+        }
+      ],
+      "evidence_omitted": 0,
+      "disposition": "Requires investigation; not a confirmed incident."
+    },
+    {
+      "alert_id": "A004",
+      "rule": "MULTI_ACCOUNT_FAILURES_FROM_SOURCE",
+      "severity": "medium",
+      "title": "Failed logins against many accounts from one source",
+      "description": "203.0.113.77 failed to log in to 8 distinct accounts (8 failed attempts) between 2024-03-04T13:05:00Z and 2024-03-04T13:10:15Z. This pattern is associated with password spraying, but shared gateways/NAT, single sign-on outages and scanners can look the same. Requires investigation.",
+      "usernames": [
+        "alice",
+        "bob",
+        "erin",
+        "frank",
+        "ivan",
+        "judy",
+        "kim",
+        "leo"
+      ],
+      "source_ip": "203.0.113.77",
+      "first_seen": "2024-03-04T13:05:00Z",
+      "last_seen": "2024-03-04T13:10:15Z",
+      "event_count": 8,
+      "severity_reasons": [
+        "8 distinct accounts failed from this address within 10 min (threshold 5): base severity medium",
+        "1 of the 8 targeted account(s) had a successful login from this address shortly afterwards (frank); severity not changed because this also happens in benign cases, but check those accounts first"
+      ],
+      "recommended_steps": [
+        "Check whether the source address is a known shared gateway, VPN or office NAT.",
+        "Look for a service outage or recent SSO/password-policy change around these times.",
+        "Review the targeted accounts' other recent activity, starting with any that later succeeded.",
+        "If the source is unexpected, consider temporary rate limiting or blocking per your policy."
+      ],
+      "evidence": [
+        {
+          "line": 65,
+          "timestamp": "2024-03-04T13:05:00Z",
+          "username": "alice",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 66,
+          "timestamp": "2024-03-04T13:05:45Z",
+          "username": "bob",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 67,
+          "timestamp": "2024-03-04T13:06:30Z",
+          "username": "erin",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 68,
+          "timestamp": "2024-03-04T13:07:15Z",
+          "username": "frank",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 69,
+          "timestamp": "2024-03-04T13:08:00Z",
+          "username": "ivan",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 70,
+          "timestamp": "2024-03-04T13:08:45Z",
+          "username": "judy",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 71,
+          "timestamp": "2024-03-04T13:09:30Z",
+          "username": "kim",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 73,
+          "timestamp": "2024-03-04T13:10:15Z",
+          "username": "leo",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 75,
+          "timestamp": "2024-03-04T13:12:00Z",
+          "username": "frank",
+          "source_ip": "203.0.113.77",
+          "event_type": "login",
+          "status": "success"
+        }
+      ],
+      "evidence_omitted": 0,
+      "disposition": "Requires investigation; not a confirmed incident."
+    },
+    {
+      "alert_id": "A005",
+      "rule": "REPEATED_FAILED_LOGINS",
+      "severity": "low",
+      "title": "Repeated failed logins for one account from one source",
+      "description": "6 failed logins for 'carol' from 203.0.113.23 between 2024-03-04T11:20:00Z and 2024-03-04T11:23:45Z (threshold 5 within 10 min). This may indicate password guessing, but a user mistyping a password or a misconfigured client can produce the same pattern. Requires investigation.",
+      "usernames": [
+        "carol"
+      ],
+      "source_ip": "203.0.113.23",
+      "first_seen": "2024-03-04T11:20:00Z",
+      "last_seen": "2024-03-04T11:23:45Z",
+      "event_count": 6,
+      "severity_reasons": [
+        "6 failures within 10 min meets threshold 5: base severity low"
+      ],
+      "recommended_steps": [
+        "Ask whether the account owner recognises this activity.",
+        "Check the account's lockout, MFA and recent password-reset state.",
+        "Review other activity from the same source address in the same period.",
+        "If the source is unexpected, consider rate limiting or blocking per your policy."
+      ],
+      "evidence": [
+        {
+          "line": 48,
+          "timestamp": "2024-03-04T11:20:00Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 49,
+          "timestamp": "2024-03-04T11:20:45Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 51,
+          "timestamp": "2024-03-04T11:21:30Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 53,
+          "timestamp": "2024-03-04T11:22:15Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 54,
+          "timestamp": "2024-03-04T11:23:00Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        },
+        {
+          "line": 55,
+          "timestamp": "2024-03-04T11:23:45Z",
+          "username": "carol",
+          "source_ip": "203.0.113.23",
+          "event_type": "login",
+          "status": "failure"
+        }
+      ],
+      "evidence_omitted": 0,
+      "disposition": "Requires investigation; not a confirmed incident."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+$ python src/cli.py analyze --input bad_input.csv   (deliberately malformed synthetic file)
+error: Invalid input (1 problem(s)):
+line 4: expected 5 field(s), found 4
+exit code: 2

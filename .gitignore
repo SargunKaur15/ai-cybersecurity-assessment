@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Trained model files (pickle-based; regenerate with train_evaluate.py)
+*.joblib
+
+# Temporary build / scratch output
+.report_build.html
+custom_run/
+
+# Personal notes (not part of the submission)
+_private-notes/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

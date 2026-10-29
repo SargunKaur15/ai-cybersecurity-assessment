@@ -1,0 +1,1001 @@
+message_id,text,label,category,template_id
+M0001,"Hi Chen, URGENT: scheduled maintenance on shared drive tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0002,"FW: Hi Chen, the February newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://payments.example.net/receipts",legitimate,newsletter,L09
+M0003,"Dear Ravi, our security team noticed unusual activity on your online banking account. Please review and confirm your details at http://payroll-update.test/form so we can keep your account safe.",phishing,security_alert_polite,P14
+M0004,"Hello Maria, the February newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://calendar.example.com/event",legitimate,newsletter,L09
+M0005,"dear diego, the august newsletter is out: new starters, an office move update and the quarterly results summary. read it at https://payments.example.net/receipts",legitimate,newsletter,L09
+M0006,"hi taylor, priya shared the document 'vendor list' with you in the shared drive. open it from your normal workspace at https://docs.example.com/policies",legitimate,shared_document,L13
+M0007,"Hi Maria, your order A29073 has shipped and should arrive on 24 January. Track it here: https://docs.example.com/policies",legitimate,order_shipped,L04
+M0008,"FW: Good morning Omar, please verify your attendance for the August training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0009,"Hello, open enrolment for benefits closes on 24 February. Review your options at https://www.example.com/orders/track.",legitimate,hr_benefits,L06
+M0010,"Hello, reminder: your VPN password expires in 5 days. You can change it from the company portal at https://news.example.org/newsletter. IT will never ask for your password by email. Best regards",legitimate,password_reminder,L01
+M0011,"Good morning Ravi, URGENT: scheduled maintenance on payroll portal tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0012,"Hello, you are eligible for a refund of $3848.55. Confirm your card details to receive it: https://portal.example.com.session-check.example.net/signin",phishing,refund,P13
+M0013,"Good morning Chen, we noticed a new sign-in to your company intranet account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension",legitimate,new_device_notice,L08
+M0014,"Hi Taylor, we detected a new sign-in to your online banking account. If this was not you, cancel the request by entering your one-time code at http://payroll-update.test/form",phishing,mfa_prompt,P10
+M0015,"hello, urgent: scheduled maintenance on online banking tonight from 22:00 to 23:30. expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0016,"Good morning Alex, reminder: your company intranet password expires in 30 days. You can change it from the company portal at https://intranet.example.com/it/password. IT will never ask for your password by email. Kind regards.",legitimate,password_reminder,L01
+M0017,"Dear Lena, reminder: your cloud storage password expires in 5 days. You can change it from the company portal at https://support.example.com/tickets. IT will never ask for your password by email. Kind regards.",legitimate,password_reminder,L01
+M0018,"Hello Ravi, please submit your expense report for July by 3 January. Instructions are on the finance page: https://payments.example.net/receipts Kind regards.",legitimate,expenses,L11
+M0019,"Good morning Priya, this month's security tip: be careful with unexpected links and never share your video-conferencing password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0020,"good morning taylor, please update the bank details for our supplier before today's payment run. the new account details are in my previous message. do not call, i cannot take calls right now.",phishing,payment_change,P07
+M0021,"Hello Alex, we noticed a new sign-in to your VPN account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0022,"FW: Hi Taylor, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0023,"Hello Priya, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0024,"Hi Chen, are you at your desk? I am in a meeting and need a favour. Please buy 3 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0025,"Dear Omar, your support ticket TCK-514 has been resolved. Reply to this message within 14 days if the problem persists.",legitimate,ticket_resolved,L10
+M0026,"Dear Jordan, as requested, your company intranet account will be closed in 3 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0027,"FW: Good morning Omar, Nina shared a document with you: 'policy update'. View it by signing in with your video-conferencing credentials: http://payroll-update.test/form",phishing,shared_document,P09
+M0028,"Hi Alex, a courier will deliver your parcel on 21 December between 16:15 and 20:00. No payment is required. Best regards.",legitimate,courier_notice,L18
+M0029,"Good morning Lena, your support ticket TCK-954 has been resolved. Reply to this message within 14 days if the problem persists",legitimate,ticket_resolved,L10
+M0030,"Dear Jordan, Diego shared the document 'team roster' with you in the shared drive. Open it from your normal workspace at https://payments.example.net/receipts",legitimate,shared_document,L13
+M0031,"Dear Omar, you have been selected to receive a new phone. Claim it before it expires: http://mail-support.test/verify",phishing,prize,P08
+M0032,"good morning sam, invoice inv-4153 for $466.81 is attached. payment is due on 5 april. questions can be sent to the accounts team. thanks,",legitimate,invoice,L03
+M0033,"Good morning Jordan, invoice INV-9230 for $3880.91 is attached. Payment is due on 21 June. Questions can be sent to the accounts team. Thanks,",legitimate,invoice,L03
+M0034,"Dear Nina, are you free for lunch on Friday? I was thinking of the place near the office. Let me know",legitimate,personal,L12
+M0035,"Hello, as requested, your cloud storage account will be closed in 3 days. Your data can be exported until then from https://support.example.com/tickets",legitimate,account_closure,L17
+M0036,"dear lena, payroll records for august need re-confirmation. submit your bank and id details through the form: https://portal.example.com.session-check.example.net/signin thank you.",phishing,payroll_update,P11
+M0037,"FW: Hello Ravi, reminder: your company intranet password expires in 30 days. You can change it from the company portal at https://www.example.com/orders/track. IT will never ask for your password by email. Best regards.",legitimate,password_reminder,L01
+M0038,"Good morning Chen, are you free for lunch on Tuesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0039,"Hi Nina, your order A66906 has shipped and should arrive on 11 January. Track it here: https://support.example.com/tickets",legitimate,order_shipped,L04
+M0040,"Hi Ravi, urgent: the project report is due Friday at 8:45. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0041,"Dear Chen, your order A26389 has shipped and should arrive on 23 August. Track it here: https://intranet.example.com/it/password",legitimate,order_shipped,L04
+M0042,"Hi Jordan, your payroll portal password has expired. To keep access, reset it using this link: http://payroll-update.test/form Thank you.",phishing,password_expiry,P03
+M0043,"dear omar, open enrolment for benefits closes on 21 october. review your options at https://payments.example.net/receipts. thank you.",legitimate,hr_benefits,L06
+M0044,"Hi Jordan, URGENT: scheduled maintenance on email tonight from 22:00 to 23:30. Expect short downtime; no action is required",legitimate,maintenance_urgent,L02
+M0045,"Hi Diego, open enrolment for benefits closes on 17 May. Review your options at https://www.example.com/orders/track",legitimate,hr_benefits,L06
+M0046,"hello ravi, we could not deliver your parcel. pay the redelivery fee of $2.29 within 48 hours to avoid return: http://account-verify.example.net/login",phishing,delivery_fee,P05
+M0047,"Hi Jordan, your order A82085 has shipped and should arrive on 13 September. Track it here: https://docs.example.com/policies",legitimate,order_shipped,L04
+M0048,"Good morning Chen, you are eligible for a refund of $710.60. Confirm your card details to receive it: http://account-verify.example.net/login",phishing,refund,P13
+M0049,"FW: Hello, we noticed a new sign-in to your video-conferencing account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0050,"Dear Lena, please submit your expense report for November by 7 January. Instructions are on the finance page: https://www.example.com/orders/track Kind regards",legitimate,expenses,L11
+M0051,"Hi Ravi, we noticed a new sign-in to your video-conferencing account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0052,"Hello Diego, the February newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0053,"Hi Taylor, the May newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://payments.example.net/receipts",legitimate,newsletter,L09
+M0054,"Dear Nina, are you at your desk? I am in a meeting and need a favour. Please buy 2 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0055,"Good morning Jordan, please verify your attendance for the March training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0056,"Hello Maria, you have been selected to receive a holiday package. Claim it before it expires: https://login-update.example.net/secure",phishing,prize,P08
+M0057,"Hi Omar, this month's security tip: be careful with unexpected links and never share your email password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0058,"Good morning Alex, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0059,"Good morning Diego, invoice INV-5705 for $3538.77 is attached. Payment is due on 28 June. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0060,"Hello, a courier will deliver your parcel on 15 November between 11:30 and 17:00. No payment is required. Thank you.",legitimate,courier_notice,L18
+M0061,"Good morning Jordan, our security team noticed unusual activity on your VPN account. Please review and confirm your details at http://account-verify.example.net/login so we can keep your account safe.",phishing,security_alert_polite,P14
+M0062,"dear taylor, as part of a routine review, we ask all staff to confirm their vpn sign-in details. it only takes a minute: http://mail-support.test/verify thank you for your cooperation.",phishing,routine_review,P02
+M0063,"Hi Lena, payroll records for December need re-confirmation. Submit your bank and ID details through the form: https://login-update.example.net/secure Thanks,",phishing,payroll_update,P11
+M0064,"good morning diego, we noticed a new sign-in to your payroll portal account from a new device. if this was you, no action is needed. if not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0065,"Good morning Nina, you are eligible for a refund of $3661.97. Confirm your card details to receive it: http://account-verify.example.net/login",phishing,refund,P13
+M0066,"Good morning Nina, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0067,"Good morning Nina, reminder: team meeting on Friday at 10:00 in room 3.04. Agenda: sprint planning. Kind regards.",legitimate,meeting,L05
+M0068,"Hello, your email password has expired. To keep access, reset it using this link: https://secure-signin.example.invalid/confirm",phishing,password_expiry,P03
+M0069,"Dear Jordan, open enrolment for benefits closes on 6 May. Review your options at https://portal.example.com/hr/benefits. Thanks,",legitimate,hr_benefits,L06
+M0070,"hello, you are eligible for a refund of $1654.46. confirm your card details to receive it: https://example.com-helpdesk.example.org/reset",phishing,refund,P13
+M0071,"FW: Dear Jordan, URGENT: your company intranet account will be suspended in 6 hours unless you verify your identity. Sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0072,"Dear Lena, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12
+M0073,"Dear Nina, reminder: team meeting on Tuesday at 10:00 in room B12. Agenda: roadmap review. Thanks,",legitimate,meeting,L05
+M0074,"Hello, URGENT: scheduled maintenance on payroll portal tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0075,"Hello Taylor, a courier will deliver your parcel on 19 March between 9:45 and 17:30. No payment is required. Kind regards.",legitimate,courier_notice,L18
+M0076,"good morning maria, this month's security tip: be careful with unexpected links and never share your vpn password or one-time codes with anyone, including it staff.",legitimate,security_awareness,L07
+M0077,"Dear Lena, a courier will deliver your parcel on 11 May between 10:30 and 18:00. No payment is required. Thank you.",legitimate,courier_notice,L18
+M0078,"Good morning Jordan, open enrolment for benefits closes on 27 December. Review your options at https://payments.example.net/receipts. Thank you.",legitimate,hr_benefits,L06
+M0079,"Hi Taylor, you have been selected to receive a holiday package. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0080,"Dear Omar, please find the attached scan of the signed contract. Enable macros to view the content.",phishing,macro_attachment,P12
+M0081,"FW: Hi Sam, reminder: your company intranet password expires in 14 days. You can change it from the company portal at https://docs.example.com/policies. IT will never ask for your password by email. Best regards.",legitimate,password_reminder,L01
+M0082,"Hello Priya, payroll records for December need re-confirmation. Submit your bank and ID details through the form: http://account-verify.example.net/login Best regards.",phishing,payroll_update,P11
+M0083,"Good morning Chen, please verify your attendance for the January training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0084,"Good morning Diego, please submit your expense report for January by 25 January. Instructions are on the finance page: https://support.example.com/tickets Best regards.",legitimate,expenses,L11
+M0085,"Hello, open enrolment for benefits closes on 18 July. Review your options at https://portal.example.com/hr/benefits.",legitimate,hr_benefits,L06
+M0086,"Good morning Taylor, as part of a routine review, we ask all staff to confirm their online banking sign-in details. It only takes a minute: http://account-verify.example.net/login Thank you for your cooperation.",phishing,routine_review,P02
+M0087,"Dear Taylor, please submit your expense report for August by 1 February. Instructions are on the finance page: https://news.example.org/newsletter Thank you.",legitimate,expenses,L11
+M0088,"Good morning Nina, please submit your expense report for August by 19 January. Instructions are on the finance page: https://news.example.org/newsletter Thank you.",legitimate,expenses,L11
+M0089,"Hi Diego, we detected a new sign-in to your payroll portal account. If this was not you, cancel the request by entering your one-time code at http://account-verify.example.net/login",phishing,mfa_prompt,P10
+M0090,"Hi Chen, as requested, your VPN account will be closed in 3 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0091,"Hello Chen, as part of a routine review, we ask all staff to confirm their video-conferencing sign-in details. It only takes a minute: http://payroll-update.test/form Thank you for your cooperation.",phishing,routine_review,P02
+M0092,"Hi Omar, we have received your payment of $2451.78. Thank you. A receipt is available in your account area at https://intranet.example.com/it/password",legitimate,payment_received,L15
+M0093,"dear ravi, urgent: the project report is due tuesday at 14:45. please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0094,"Hi Lena, reminder: team meeting on Tuesday at 8:00 in room Orion. Agenda: sprint planning. Best regards.",legitimate,meeting,L05
+M0095,"Hello, this month's security tip: be careful with unexpected links and never share your cloud storage password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0096,"Dear Jordan, you have been selected to receive a cash reward. Claim it before it expires: http://docs-viewer.example.invalid/open",phishing,prize,P08
+M0097,"Dear Jordan, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12
+M0098,"FW: Hi Jordan, URGENT: your VPN account will be suspended in 24 hours unless you verify your identity. Sign in here: http://docs-viewer.example.invalid/open",phishing,account_suspension,P01
+M0099,"Hello Nina, a courier will deliver your parcel on 21 July between 16:45 and 19:00. No payment is required.",legitimate,courier_notice,L18
+M0100,"Good morning Lena, we could not deliver your parcel. Pay the redelivery fee of $3.55 within 2 hours to avoid return: https://login-update.example.net/secure",phishing,delivery_fee,P05
+M0101,"Hello, urgent: the project report is due Monday at 16:15. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0102,"Hello, as part of a routine review, we ask all staff to confirm their email sign-in details. It only takes a minute: http://docs-viewer.example.invalid/open Thank you for your cooperation.",phishing,routine_review,P02
+M0103,"Good morning Jordan, please submit your expense report for January by 11 April. Instructions are on the finance page: https://www.example.com/orders/track Best regards.",legitimate,expenses,L11
+M0104,"Hi Priya, URGENT: your cloud storage account will be suspended in 24 hours unless you verify your identity. Sign in here: https://login-update.example.net/secure",phishing,account_suspension,P01
+M0105,"hello, your support ticket tck-226 has been resolved. reply to this message within 30 days if the problem persists.",legitimate,ticket_resolved,L10
+M0106,"Good morning Lena, this month's security tip: be careful with unexpected links and never share your shared drive password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0107,"Dear Maria, please verify your attendance for the March training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0108,"Hello, invoice INV-6119 for $472.43 is attached. Payment is due on 18 January. Questions can be sent to the accounts team. Best regards.",legitimate,invoice,L03
+M0109,"Hello, your order A45847 has shipped and should arrive on 27 December. Track it here: https://calendar.example.com/event",legitimate,order_shipped,L04
+M0110,"Hello, this month's security tip: be careful with unexpected links and never share your video-conferencing password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0111,"Hello Chen, URGENT: scheduled maintenance on video-conferencing tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0112,"Good morning Sam, your support ticket TCK-581 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0113,"Hi Alex, URGENT: scheduled maintenance on company intranet tonight from 22:00 to 23:30. Expect short downtime; no action is required",legitimate,maintenance_urgent,L02
+M0114,"FW: Hello, urgent: the project report is due Monday at 15:15. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0115,"Good morning Priya, reminder: your payroll portal password expires in 7 days. You can change it from the company portal at https://calendar.example.com/event. IT will never ask for your password by email. Thanks,",legitimate,password_reminder,L01
+M0116,"hello, your order a24461 has shipped and should arrive on 4 june. track it here: https://calendar.example.com/event",legitimate,order_shipped,L04
+M0117,"FW: Dear Maria, your support ticket TCK-488 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0118,"Hello Lena, your order A33053 has shipped and should arrive on 6 January. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0119,"Dear Nina, open enrolment for benefits closes on 9 March. Review your options at https://intranet.example.com/it/password. Kind regards.",legitimate,hr_benefits,L06
+M0120,"Good morning Jordan, are you at your desk? I am in a meeting and need a favour. Please buy 3 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0121,"FW: Hello Nina, URGENT: your company intranet account will be suspended in 12 hours unless you verify your identity. Sign in here: https://secure-signin.example.invalid/confirm",phishing,account_suspension,P01
+M0122,"Hello Diego, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0123,"Hello Sam, we have received your payment of $3823.48. Thank you. A receipt is available in your account area at https://docs.example.com/policies",legitimate,payment_received,L15
+M0124,"good morning sam, please submit your expense report for july by 12 june. instructions are on the finance page: https://payments.example.net/receipts kind regards.",legitimate,expenses,L11
+M0125,"dear lena, chen shared a document with you: 'budget summary'. view it by signing in with your video-conferencing credentials: http://mail-support.test/verify",phishing,shared_document,P09
+M0126,"hello, as requested, your video-conferencing account will be closed in 30 days. your data can be exported until then from https://payments.example.net/receipts",legitimate,account_closure,L17
+M0127,"Dear Diego, we have received your payment of $4702.16. Thank you. A receipt is available in your account area at https://www.example.com/orders/track",legitimate,payment_received,L15
+M0128,"Hi Ravi, invoice INV-2785 for $1313.13 is overdue. Open the secure document to review payment details: http://mail-support.test/verify",phishing,invoice,P04
+M0129,"Hello, your order A16830 has shipped and should arrive on 11 April. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0130,"Good morning Lena, you are eligible for a refund of $2386.80. Confirm your card details to receive it: https://example.com-helpdesk.example.org/reset",phishing,refund,P13
+M0131,"Hello Nina, as part of a routine review, we ask all staff to confirm their video-conferencing sign-in details. It only takes a minute: http://docs-viewer.example.invalid/open Thank you for your cooperation.",phishing,routine_review,P02
+M0132,"Hello, as part of a routine review, we ask all staff to confirm their company intranet sign-in details. It only takes a minute: http://mail-support.test/verify Thank you for your cooperation.",phishing,routine_review,P02
+M0133,"Good morning Lena, payroll records for November need re-confirmation. Submit your bank and ID details through the form: http://docs-viewer.example.invalid/open",phishing,payroll_update,P11
+M0134,"Good morning Diego, please verify your attendance for the July training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0135,"FW: Hi Priya, you are eligible for a refund of $233.84. Confirm your card details to receive it: https://login-update.example.net/secure",phishing,refund,P13
+M0136,"Hello Alex, we noticed a new sign-in to your shared drive account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0137,"FW: Hello, reminder: team meeting on Thursday at 13:00 in room Atlas. Agenda: roadmap review. Thanks,",legitimate,meeting,L05
+M0138,"Dear Nina, your order A98575 has shipped and should arrive on 26 January. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0139,"Good morning Priya, Omar shared the document 'budget summary' with you in the shared drive. Open it from your normal workspace at https://payments.example.net/receipts",legitimate,shared_document,L13
+M0140,"Hi Sam, are you free for lunch on Friday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0141,"Hi Priya, Priya shared a document with you: 'vendor list'. View it by signing in with your shared drive credentials: https://portal.example.com.session-check.example.net/signin",phishing,shared_document,P09
+M0142,"Hi Sam, your video-conferencing password has expired. To keep access, reset it using this link: https://login-update.example.net/secure Best regards.",phishing,password_expiry,P03
+M0143,"Good morning Omar, payroll records for January need re-confirmation. Submit your bank and ID details through the form: https://login-update.example.net/secure Best regards.",phishing,payroll_update,P11
+M0144,"Hello, we have received your payment of $2710.53. Thank you. A receipt is available in your account area at https://www.example.com/orders/track",legitimate,payment_received,L15
+M0145,"FW: Hi Maria, please verify your attendance for the January training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0146,"Hello, you are eligible for a refund of $4388.64. Confirm your card details to receive it: https://portal.example.com.session-check.example.net/signin",phishing,refund,P13
+M0147,"dear ravi, open enrolment for benefits closes on 27 august. review your options at https://support.example.com/tickets. best regards.",legitimate,hr_benefits,L06
+M0148,"dear omar, this month's security tip: be careful with unexpected links and never share your online banking password or one-time codes with anyone, including it staff.",legitimate,security_awareness,L07
+M0149,"Dear Diego, are you at your desk? I am in a meeting and need a favour. Please buy 2 gift cards for a client and send me the codes. Keep this between us for now",phishing,gift_card_fraud,P06
+M0150,"Hello Lena, as part of a routine review, we ask all staff to confirm their VPN sign-in details. It only takes a minute: http://mail-support.test/verify Thank you for your cooperation.",phishing,routine_review,P02
+M0151,"Hello Lena, please submit your expense report for May by 18 October. Instructions are on the finance page: https://calendar.example.com/event Best regards.",legitimate,expenses,L11
+M0152,"Good morning Lena, you are eligible for a refund of $49.84. Confirm your card details to receive it: http://payroll-update.test/form",phishing,refund,P13
+M0153,"Good morning Omar, you have been selected to receive a gift voucher. Claim it before it expires: http://docs-viewer.example.invalid/open",phishing,prize,P08
+M0154,"Dear Jordan, we have received your payment of $1579.13. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0155,"Hi Omar, we could not deliver your parcel. Pay the redelivery fee of $6.59 within 24 hours to avoid return: http://payroll-update.test/form",phishing,delivery_fee,P05
+M0156,"Hello Omar, Ravi shared a document with you: 'meeting notes'. View it by signing in with your email credentials: https://secure-signin.example.invalid/confirm",phishing,shared_document,P09
+M0157,"Dear Alex, Omar shared a document with you: 'policy update'. View it by signing in with your cloud storage credentials: https://example.com-helpdesk.example.org/reset",phishing,shared_document,P09
+M0158,"FW: good morning taylor, please submit your expense report for august by 12 may. instructions are on the finance page: https://news.example.org/newsletter",legitimate,expenses,L11
+M0159,"Hi Omar, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12
+M0160,"Hello Lena, invoice INV-5661 for $4620.74 is attached. Payment is due on 12 June. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0161,"Hi Alex, please submit your expense report for December by 18 September. Instructions are on the finance page: https://docs.example.com/policies Kind regards.",legitimate,expenses,L11
+M0162,"Dear Maria, the September newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://calendar.example.com/event",legitimate,newsletter,L09
+M0163,"Good morning Sam, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12
+M0164,"hello lena, urgent: your company intranet account will be suspended in 6 hours unless you verify your identity. sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0165,"Good morning Taylor, the February newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://news.example.org/newsletter",legitimate,newsletter,L09
+M0166,"Dear Ravi, your company intranet password has expired. To keep access, reset it using this link: http://payroll-update.test/form Thank you.",phishing,password_expiry,P03
+M0167,"Dear Taylor, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12
+M0168,"Hello Priya, URGENT: your email account will be suspended in 12 hours unless you verify your identity. Sign in here: http://account-verify.example.net/login",phishing,account_suspension,P01
+M0169,"Hello, as requested, your video-conferencing account will be closed in 7 days. Your data can be exported until then from https://www.example.com/orders/track",legitimate,account_closure,L17
+M0170,"Good morning Sam, please submit your expense report for July by 10 August. Instructions are on the finance page: https://calendar.example.com/event Best regards.",legitimate,expenses,L11
+M0171,"Hi Taylor, URGENT: scheduled maintenance on cloud storage tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0172,"good morning jordan, your order a33882 has shipped and should arrive on 27 july. track it here: https://intranet.example.com/it/password",legitimate,order_shipped,L04
+M0173,"Good morning Nina, reminder: team meeting on Monday at 13:15 in room Orion. Agenda: onboarding update. Thanks,",legitimate,meeting,L05
+M0174,"Hi Priya, are you free for lunch on Friday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0175,"Hi Priya, you are eligible for a refund of $710.67. Confirm your card details to receive it: http://payroll-update.test/form",phishing,refund,P13
+M0176,"Good morning Maria, you are eligible for a refund of $410.51. Confirm your card details to receive it: http://account-verify.example.net/login",phishing,refund,P13
+M0177,"Hello Lena, your order A96362 has shipped and should arrive on 3 January. Track it here: https://support.example.com/tickets",legitimate,order_shipped,L04
+M0178,"hi taylor, invoice inv-8723 for $3985.21 is attached. payment is due on 8 july. questions can be sent to the accounts team.",legitimate,invoice,L03
+M0179,"Good morning Sam, open enrolment for benefits closes on 16 April. Review your options at https://payments.example.net/receipts. Thanks,",legitimate,hr_benefits,L06
+M0180,"Dear Jordan, as requested, your online banking account will be closed in 14 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0181,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12
+M0182,"Dear Sam, Jordan shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0183,"Hi Jordan, you are eligible for a refund of $353.36. Confirm your card details to receive it: http://payroll-update.test/form",phishing,refund,P13
+M0184,"Dear Ravi, please submit your expense report for November by 10 July. Instructions are on the finance page: https://docs.example.com/policies Thank you.",legitimate,expenses,L11
+M0185,"Good morning Nina, we could not deliver your parcel. Pay the redelivery fee of $7.62 within 48 hours to avoid return: http://payroll-update.test/form",phishing,delivery_fee,P05
+M0186,"Hello, URGENT: scheduled maintenance on video-conferencing tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0187,"Hi Sam, we detected a new sign-in to your VPN account. If this was not you, cancel the request by entering your one-time code at https://login-update.example.net/secure",phishing,mfa_prompt,P10
+M0188,"Hello Maria, the January newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0189,"Hello Sam, Diego shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://payments.example.net/receipts",legitimate,shared_document,L13
+M0190,"Hi Alex, a courier will deliver your parcel on 9 April between 11:45 and 17:30. No payment is required. Best regards.",legitimate,courier_notice,L18
+M0191,"hi sam, urgent: the project report is due thursday at 13:15. please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0192,"Hello, your support ticket TCK-625 has been resolved. Reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0193,"FW: Hello, our security team noticed unusual activity on your payroll portal account. Please review and confirm your details at http://mail-support.test/verify so we can keep your account safe.",phishing,security_alert_polite,P14
+M0194,"Hello Omar, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0195,"Good morning Omar, are you free for lunch on Monday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0196,"Good morning Priya, we could not deliver your parcel. Pay the redelivery fee of $7.38 within 24 hours to avoid return: https://secure-signin.example.invalid/confirm",phishing,delivery_fee,P05
+M0197,"Good morning Omar, URGENT: scheduled maintenance on online banking tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0198,"Hello Priya, we could not deliver your parcel. Pay the redelivery fee of $7.76 within 2 hours to avoid return: http://account-verify.example.net/login",phishing,delivery_fee,P05
+M0199,"Hello Jordan, please submit your expense report for October by 27 March. Instructions are on the finance page: https://news.example.org/newsletter Best regards.",legitimate,expenses,L11
+M0200,"Hello, the September newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://intranet.example.com/it/password",legitimate,newsletter,L09
+M0201,"Hello, you are eligible for a refund of $4026.19. Confirm your card details to receive it: https://login-update.example.net/secure",phishing,refund,P13
+M0202,"hi diego, urgent: scheduled maintenance on cloud storage tonight from 22:00 to 23:30. expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0203,"Hello Ravi, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0204,"Hi Maria, as part of a routine review, we ask all staff to confirm their cloud storage sign-in details. It only takes a minute: http://payroll-update.test/form Thank you for your cooperation.",phishing,routine_review,P02
+M0205,"good morning priya, you are eligible for a refund of $1895.17. confirm your card details to receive it: http://mail-support.test/verify",phishing,refund,P13
+M0206,"hello, please verify your attendance for the january training session by replying yes or no. places are limited.",legitimate,attendance_verify,L16
+M0207,"dear ravi, sam shared the document 'team roster' with you in the shared drive. open it from your normal workspace at https://support.example.com/tickets",legitimate,shared_document,L13
+M0208,"Hi Nina, our security team noticed unusual activity on your cloud storage account. Please review and confirm your details at http://account-verify.example.net/login so we can keep your account safe.",phishing,security_alert_polite,P14
+M0209,"Hello, we detected a new sign-in to your cloud storage account. If this was not you, cancel the request by entering your one-time code at https://example.com-helpdesk.example.org/reset",phishing,mfa_prompt,P10
+M0210,"dear diego, are you free for lunch on wednesday? i was thinking of the place near the office. let me know.",legitimate,personal,L12
+M0211,"Hi Sam, your order A57672 has shipped and should arrive on 7 June. Track it here: https://www.example.com/orders/track",legitimate,order_shipped,L04
+M0212,"Good morning Jordan, payroll records for October need re-confirmation. Submit your bank and ID details through the form: https://secure-signin.example.invalid/confirm Kind regards.",phishing,payroll_update,P11
+M0213,"Dear Maria, your support ticket TCK-108 has been resolved. Reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0214,"Hi Alex, a courier will deliver your parcel on 13 December between 15:00 and 19:30. No payment is required. Kind regards.",legitimate,courier_notice,L18
+M0215,"Good morning Nina, please verify your attendance for the May training session by replying yes or no. Places are limited",legitimate,attendance_verify,L16
+M0216,"FW: Dear Taylor, you have been selected to receive a gift voucher. Claim it before it expires: http://payroll-update.test/form",phishing,prize,P08
+M0217,"Good morning Omar, our security team noticed unusual activity on your cloud storage account. Please review and confirm your details at http://payroll-update.test/form so we can keep your account safe.",phishing,security_alert_polite,P14
+M0218,"Hello Taylor, your order A91980 has shipped and should arrive on 26 February. Track it here: https://www.example.com/orders/track",legitimate,order_shipped,L04
+M0219,"Hi Chen, you are eligible for a refund of $307.35. Confirm your card details to receive it: https://login-update.example.net/secure",phishing,refund,P13
+M0220,"Hi Diego, Chen shared a document with you: 'policy update'. View it by signing in with your online banking credentials: http://payroll-update.test/form",phishing,shared_document,P09
+M0221,"Hello, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0222,"Hello, your online banking password has expired. To keep access, reset it using this link: https://secure-signin.example.invalid/confirm Best regards.",phishing,password_expiry,P03
+M0223,"dear sam, as part of a routine review, we ask all staff to confirm their email sign-in details. it only takes a minute: http://payroll-update.test/form thank you for your cooperation.",phishing,routine_review,P02
+M0224,"Dear Taylor, please verify your attendance for the April training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0225,"Dear Lena, your order A72963 has shipped and should arrive on 19 October. Track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0226,"hello omar, open enrolment for benefits closes on 20 july. review your options at https://calendar.example.com/event. thanks,",legitimate,hr_benefits,L06
+M0227,"Hi Alex, we could not deliver your parcel. Pay the redelivery fee of $4.72 within 2 hours to avoid return: https://secure-signin.example.invalid/confirm",phishing,delivery_fee,P05
+M0228,"hello maria, the june newsletter is out: new starters, an office move update and the quarterly results summary. read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0229,"Dear Maria, this month's security tip: be careful with unexpected links and never share your online banking password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0230,"Hello, please verify your attendance for the March training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0231,"Hello Ravi, your video-conferencing password has expired. To keep access, reset it using this link: http://docs-viewer.example.invalid/open Best regards.",phishing,password_expiry,P03
+M0232,"Hi Jordan, your support ticket TCK-484 has been resolved. Reply to this message within 5 days if the problem persists.",legitimate,ticket_resolved,L10
+M0233,"Good morning Maria, you have been selected to receive a holiday package. Claim it before it expires: https://secure-signin.example.invalid/confirm",phishing,prize,P08
+M0234,"dear chen, reminder: team meeting on thursday at 16:00 in room atlas. agenda: onboarding update. kind regards.",legitimate,meeting,L05
+M0235,"Hello Jordan, reminder: team meeting on Monday at 12:00 in room Atlas. Agenda: quarterly goals. Thanks,",legitimate,meeting,L05
+M0236,"Good morning Priya, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12
+M0237,"Hi Maria, you have been selected to receive a new phone. Claim it before it expires: http://docs-viewer.example.invalid/open",phishing,prize,P08
+M0238,"Hello, invoice INV-5637 for $3158.59 is overdue. Open the secure document to review payment details: http://docs-viewer.example.invalid/open",phishing,invoice,P04
+M0239,"Hi Omar, invoice INV-5747 for $3270.18 is attached. Payment is due on 5 June. Questions can be sent to the accounts team. Thank you.",legitimate,invoice,L03
+M0240,"FW: Hi Taylor, URGENT: scheduled maintenance on email tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0241,"dear alex, reminder: your cloud storage password expires in 7 days. you can change it from the company portal at https://intranet.example.com/it/password. it will never ask for your password by email.",legitimate,password_reminder,L01
+M0242,"Dear Omar, you have been selected to receive a new phone. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0243,"Hi Jordan, reminder: team meeting on Tuesday at 8:45 in room Orion. Agenda: sprint planning. Best regards.",legitimate,meeting,L05
+M0244,"FW: Hello, the October newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://www.example.com/orders/track",legitimate,newsletter,L09
+M0245,"FW: Hello Priya, your support ticket TCK-967 has been resolved. Reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0246,"Hello Chen, invoice INV-4633 for $3077.10 is attached. Payment is due on 20 January. Questions can be sent to the accounts team. Best regards.",legitimate,invoice,L03
+M0247,"Good morning Nina, invoice INV-1994 for $2996.71 is attached. Payment is due on 24 July. Questions can be sent to the accounts team. Kind regards",legitimate,invoice,L03
+M0248,"Hello, we could not deliver your parcel. Pay the redelivery fee of $5.17 within 2 hours to avoid return: https://login-update.example.net/secure",phishing,delivery_fee,P05
+M0249,"Hello Nina, invoice INV-1659 for $294.31 is overdue. Open the secure document to review payment details: https://login-update.example.net/secure",phishing,invoice,P04
+M0250,"dear sam, payroll records for march need re-confirmation. submit your bank and id details through the form: https://example.com-helpdesk.example.org/reset",phishing,payroll_update,P11
+M0251,"Good morning Alex, invoice INV-6374 for $1853.82 is overdue. Open the secure document to review payment details: https://secure-signin.example.invalid/confirm",phishing,invoice,P04
+M0252,"Hello Chen, reminder: team meeting on Thursday at 14:30 in room 2A. Agenda: budget check-in. Kind regards.",legitimate,meeting,L05
+M0253,"hello priya, urgent: the project report is due monday at 10:15. please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0254,"Hello, we could not deliver your parcel. Pay the redelivery fee of $5.72 within 48 hours to avoid return: http://account-verify.example.net/login",phishing,delivery_fee,P05
+M0255,"Hello Taylor, your order A69917 has shipped and should arrive on 27 February. Track it here: https://portal.example.com/hr/benefits",legitimate,order_shipped,L04
+M0256,"Hello Nina, invoice INV-7776 for $3509.46 is attached. Payment is due on 12 April. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0257,"Good morning Sam, our security team noticed unusual activity on your VPN account. Please review and confirm your details at https://portal.example.com.session-check.example.net/signin so we can keep your account safe.",phishing,security_alert_polite,P14
+M0258,"Hello, we detected a new sign-in to your email account. If this was not you, cancel the request by entering your one-time code at http://payroll-update.test/form",phishing,mfa_prompt,P10
+M0259,"hello, we detected a new sign-in to your payroll portal account. if this was not you, cancel the request by entering your one-time code at http://docs-viewer.example.invalid/open",phishing,mfa_prompt,P10
+M0260,"Dear Jordan, this month's security tip: be careful with unexpected links and never share your email password or one-time codes with anyone, including IT staff",legitimate,security_awareness,L07
+M0261,"Hi Nina, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0262,"FW: Hi Chen, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0263,"Hello, you are eligible for a refund of $2311.18. Confirm your card details to receive it: http://mail-support.test/verify",phishing,refund,P13
+M0264,"Hello Maria, URGENT: scheduled maintenance on payroll portal tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0265,"FW: Hi Taylor, we noticed a new sign-in to your cloud storage account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension",legitimate,new_device_notice,L08
+M0266,"Hello, URGENT: scheduled maintenance on cloud storage tonight from 22:00 to 23:30. Expect short downtime; no action is required",legitimate,maintenance_urgent,L02
+M0267,"Hi Maria, you have been selected to receive a holiday package. Claim it before it expires: http://docs-viewer.example.invalid/open",phishing,prize,P08
+M0268,"Dear Omar, URGENT: your payroll portal account will be suspended in 6 hours unless you verify your identity. Sign in here: https://example.com-helpdesk.example.org/reset",phishing,account_suspension,P01
+M0269,"Hello Maria, we have received your payment of $3123.76. Thank you. A receipt is available in your account area at https://docs.example.com/policies",legitimate,payment_received,L15
+M0270,"Hello Nina, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0271,"Hello, Priya shared a document with you: 'vendor list'. View it by signing in with your video-conferencing credentials: https://portal.example.com.session-check.example.net/signin",phishing,shared_document,P09
+M0272,"Hi Alex, payroll records for February need re-confirmation. Submit your bank and ID details through the form: https://example.com-helpdesk.example.org/reset Kind regards.",phishing,payroll_update,P11
+M0273,"Dear Nina, open enrolment for benefits closes on 18 May. Review your options at https://portal.example.com/hr/benefits. Thanks,",legitimate,hr_benefits,L06
+M0274,"FW: Dear Ravi, invoice INV-9908 for $3387.32 is attached. Payment is due on 7 January. Questions can be sent to the accounts team. Thank you.",legitimate,invoice,L03
+M0275,"Hello, you are eligible for a refund of $4353.04. Confirm your card details to receive it: http://docs-viewer.example.invalid/open",phishing,refund,P13
+M0276,"Hello, please verify your attendance for the August training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0277,"Hi Priya, please verify your attendance for the December training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0278,"Hi Sam, are you at your desk? I am in a meeting and need a favour. Please buy 6 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0279,"Hello, we have received your payment of $1998.61. Thank you. A receipt is available in your account area at https://docs.example.com/policies",legitimate,payment_received,L15
+M0280,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12
+M0281,"hi diego, payroll records for july need re-confirmation. submit your bank and id details through the form: http://docs-viewer.example.invalid/open kind regards",phishing,payroll_update,P11
+M0282,"Hello, we detected a new sign-in to your online banking account. If this was not you, cancel the request by entering your one-time code at http://account-verify.example.net/login",phishing,mfa_prompt,P10
+M0283,"Hello Jordan, reminder: team meeting on Thursday at 15:45 in room 2A. Agenda: budget check-in. Best regards.",legitimate,meeting,L05
+M0284,"Hello Nina, as part of a routine review, we ask all staff to confirm their VPN sign-in details. It only takes a minute: https://example.com-helpdesk.example.org/reset Thank you for your cooperation.",phishing,routine_review,P02
+M0285,"Hi Maria, you have been selected to receive a cash reward. Claim it before it expires: http://payroll-update.test/form",phishing,prize,P08
+M0286,"Dear Priya, we detected a new sign-in to your company intranet account. If this was not you, cancel the request by entering your one-time code at http://mail-support.test/verify",phishing,mfa_prompt,P10
+M0287,"Hello, Lena shared the document 'policy update' with you in the shared drive. Open it from your normal workspace at https://calendar.example.com/event",legitimate,shared_document,L13
+M0288,"Hello, the December newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://calendar.example.com/event",legitimate,newsletter,L09
+M0289,"Dear Omar, your support ticket TCK-366 has been resolved. Reply to this message within 5 days if the problem persists",legitimate,ticket_resolved,L10
+M0290,"Hello Jordan, you are eligible for a refund of $4167.37. Confirm your card details to receive it: https://login-update.example.net/secure",phishing,refund,P13
+M0291,"FW: hi priya, invoice inv-3694 for $2737.39 is attached. payment is due on 3 november. questions can be sent to the accounts team. thank you.",legitimate,invoice,L03
+M0292,"FW: Good morning Ravi, please submit your expense report for May by 16 March. Instructions are on the finance page: https://calendar.example.com/event Best regards.",legitimate,expenses,L11
+M0293,"Dear Sam, we have received your payment of $2604.24. Thank you. A receipt is available in your account area at https://payments.example.net/receipts",legitimate,payment_received,L15
+M0294,"Hi Taylor, a courier will deliver your parcel on 13 November between 11:15 and 18:00. No payment is required. Kind regards.",legitimate,courier_notice,L18
+M0295,"Dear Nina, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0296,"Good morning Omar, we have received your payment of $3050.63. Thank you. A receipt is available in your account area at https://docs.example.com/policies",legitimate,payment_received,L15
+M0297,"dear alex, your order a51724 has shipped and should arrive on 15 september. track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0298,"Hi Nina, reminder: your video-conferencing password expires in 3 days. You can change it from the company portal at https://calendar.example.com/event. IT will never ask for your password by email.",legitimate,password_reminder,L01
+M0299,"Hello, URGENT: scheduled maintenance on company intranet tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0300,"Good morning Maria, we noticed a new sign-in to your shared drive account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0301,"Hello Diego, invoice INV-5941 for $1031.72 is overdue. Open the secure document to review payment details: http://account-verify.example.net/login",phishing,invoice,P04
+M0302,"Dear Lena, your order A85400 has shipped and should arrive on 1 May. Track it here: https://support.example.com/tickets",legitimate,order_shipped,L04
+M0303,"Hi Jordan, reminder: team meeting on Thursday at 12:45 in room B12. Agenda: sprint planning.",legitimate,meeting,L05
+M0304,"Hello, you have been selected to receive a gift voucher. Claim it before it expires: http://account-verify.example.net/login",phishing,prize,P08
+M0305,"Hi Maria, Sam shared the document 'meeting notes' with you in the shared drive. Open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0306,"Hello Diego, please verify your attendance for the September training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0307,"Hello Jordan, Sam shared a document with you: 'meeting notes'. View it by signing in with your cloud storage credentials: https://login-update.example.net/secure",phishing,shared_document,P09
+M0308,"Hi Maria, payroll records for September need re-confirmation. Submit your bank and ID details through the form: https://login-update.example.net/secure Thank you.",phishing,payroll_update,P11
+M0309,"Hi Priya, please verify your attendance for the September training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0310,"Hi Priya, we could not deliver your parcel. Pay the redelivery fee of $3.03 within 2 hours to avoid return: https://login-update.example.net/secure",phishing,delivery_fee,P05
+M0311,"Good morning Omar, we have received your payment of $1442.97. Thank you. A receipt is available in your account area at https://docs.example.com/policies",legitimate,payment_received,L15
+M0312,"Hi Taylor, a courier will deliver your parcel on 13 February between 13:15 and 20:30. No payment is required.",legitimate,courier_notice,L18
+M0313,"dear alex, your payroll portal password has expired. to keep access, reset it using this link: https://example.com-helpdesk.example.org/reset",phishing,password_expiry,P03
+M0314,"Hello Alex, are you free for lunch on Thursday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0315,"Good morning Sam, the September newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://news.example.org/newsletter",legitimate,newsletter,L09
+M0316,"Good morning Alex, reminder: team meeting on Tuesday at 14:45 in room 3.04. Agenda: quarterly goals.",legitimate,meeting,L05
+M0317,"Hi Omar, reminder: your shared drive password expires in 14 days. You can change it from the company portal at https://portal.example.com/hr/benefits. IT will never ask for your password by email. Thank you.",legitimate,password_reminder,L01
+M0318,"Good morning Diego, URGENT: scheduled maintenance on company intranet tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0319,"Hello, your order A90962 has shipped and should arrive on 4 May. Track it here: https://portal.example.com/hr/benefits",legitimate,order_shipped,L04
+M0320,"Dear Jordan, URGENT: your shared drive account will be suspended in 12 hours unless you verify your identity. Sign in here: https://secure-signin.example.invalid/confirm",phishing,account_suspension,P01
+M0321,"Good morning Priya, we could not deliver your parcel. Pay the redelivery fee of $8.72 within 48 hours to avoid return: https://example.com-helpdesk.example.org/reset",phishing,delivery_fee,P05
+M0322,"FW: Good morning Chen, reminder: team meeting on Friday at 13:30 in room Orion. Agenda: roadmap review.",legitimate,meeting,L05
+M0323,"Dear Omar, Ravi shared the document 'vendor list' with you in the shared drive. Open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0324,"Good morning Jordan, reminder: your online banking password expires in 14 days. You can change it from the company portal at https://www.example.com/orders/track. IT will never ask for your password by email. Best regards.",legitimate,password_reminder,L01
+M0325,"Good morning Maria, please submit your expense report for May by 10 March. Instructions are on the finance page: https://intranet.example.com/it/password",legitimate,expenses,L11
+M0326,"FW: Hi Sam, URGENT: your shared drive account will be suspended in 24 hours unless you verify your identity. Sign in here: http://docs-viewer.example.invalid/open",phishing,account_suspension,P01
+M0327,"Hi Sam, the February newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://portal.example.com/hr/benefits",legitimate,newsletter,L09
+M0328,"Hello, as requested, your VPN account will be closed in 3 days. Your data can be exported until then from https://calendar.example.com/event",legitimate,account_closure,L17
+M0329,"hello maria, we detected a new sign-in to your email account. if this was not you, cancel the request by entering your one-time code at http://payroll-update.test/form",phishing,mfa_prompt,P10
+M0330,"good morning lena, nina shared the document 'vendor list' with you in the shared drive. open it from your normal workspace at https://portal.example.com/hr/benefits",legitimate,shared_document,L13
+M0331,"Good morning Omar, as requested, your VPN account will be closed in 5 days. Your data can be exported until then from https://intranet.example.com/it/password",legitimate,account_closure,L17
+M0332,"hello alex, you are eligible for a refund of $3794.79. confirm your card details to receive it: https://secure-signin.example.invalid/confirm",phishing,refund,P13
+M0333,"FW: Good morning Ravi, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0334,"Good morning Lena, your support ticket TCK-610 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0335,"Hi Sam, please submit your expense report for August by 26 January. Instructions are on the finance page: https://news.example.org/newsletter Thanks,",legitimate,expenses,L11
+M0336,"Hello Ravi, your order A36922 has shipped and should arrive on 19 April. Track it here: https://support.example.com/tickets",legitimate,order_shipped,L04
+M0337,"Hi Omar, your support ticket TCK-357 has been resolved. Reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0338,"Hi Omar, reminder: team meeting on Friday at 16:30 in room 2A. Agenda: sprint planning.",legitimate,meeting,L05
+M0339,"Hello Ravi, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12
+M0340,"Dear Priya, payroll records for February need re-confirmation. Submit your bank and ID details through the form: http://account-verify.example.net/login Thanks,",phishing,payroll_update,P11
+M0341,"dear lena, open enrolment for benefits closes on 6 august. review your options at https://www.example.com/orders/track",legitimate,hr_benefits,L06
+M0342,"Good morning Chen, your order A85030 has shipped and should arrive on 24 January. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0343,"Good morning Nina, Diego shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://www.example.com/orders/track",legitimate,shared_document,L13
+M0344,"Dear Priya, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0345,"Hello Omar, the September newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://payments.example.net/receipts",legitimate,newsletter,L09
+M0346,"Dear Jordan, your payroll portal password has expired. To keep access, reset it using this link: http://payroll-update.test/form Thanks,",phishing,password_expiry,P03
+M0347,"Hello, we could not deliver your parcel. Pay the redelivery fee of $9.01 within 48 hours to avoid return: https://portal.example.com.session-check.example.net/signin",phishing,delivery_fee,P05
+M0348,"Hi Ravi, you are eligible for a refund of $3221.45. Confirm your card details to receive it: http://mail-support.test/verify",phishing,refund,P13
+M0349,"FW: Good morning Alex, the August newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0350,"FW: Hi Omar, this month's security tip: be careful with unexpected links and never share your company intranet password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0351,"Good morning Omar, please verify your attendance for the July training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0352,"Hi Priya, we have received your payment of $671.65. Thank you. A receipt is available in your account area at https://calendar.example.com/event",legitimate,payment_received,L15
+M0353,"Hello Jordan, you have been selected to receive a holiday package. Claim it before it expires: http://account-verify.example.net/login",phishing,prize,P08
+M0354,"Hi Sam, payroll records for January need re-confirmation. Submit your bank and ID details through the form: http://mail-support.test/verify Thank you.",phishing,payroll_update,P11
+M0355,"Hello, URGENT: your cloud storage account will be suspended in 2 hours unless you verify your identity. Sign in here: http://account-verify.example.net/login",phishing,account_suspension,P01
+M0356,"Hi Maria, reminder: team meeting on Thursday at 16:30 in room Orion. Agenda: budget check-in. Thank you.",legitimate,meeting,L05
+M0357,"Dear Omar, URGENT: your online banking account will be suspended in 6 hours unless you verify your identity. Sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0358,"Good morning Alex, your payroll portal password has expired. To keep access, reset it using this link: http://docs-viewer.example.invalid/open Thank you.",phishing,password_expiry,P03
+M0359,"Hello, the January newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://portal.example.com/hr/benefits",legitimate,newsletter,L09
+M0360,"Hi Diego, we have received your payment of $2704.11. Thank you. A receipt is available in your account area at https://payments.example.net/receipts",legitimate,payment_received,L15
+M0361,"Hello, we could not deliver your parcel. Pay the redelivery fee of $8.56 within 2 hours to avoid return: http://account-verify.example.net/login",phishing,delivery_fee,P05
+M0362,"Hello Ravi, Maria shared a document with you: 'policy update'. View it by signing in with your email credentials: https://secure-signin.example.invalid/confirm",phishing,shared_document,P09
+M0363,"Hi Ravi, we could not deliver your parcel. Pay the redelivery fee of $6.28 within 6 hours to avoid return: https://portal.example.com.session-check.example.net/signin",phishing,delivery_fee,P05
+M0364,"Good morning Diego, as requested, your shared drive account will be closed in 3 days. Your data can be exported until then from https://payments.example.net/receipts",legitimate,account_closure,L17
+M0365,"hello alex, payroll records for february need re-confirmation. submit your bank and id details through the form: http://payroll-update.test/form thank you.",phishing,payroll_update,P11
+M0366,"Hello, reminder: your payroll portal password expires in 3 days. You can change it from the company portal at https://docs.example.com/policies. IT will never ask for your password by email. Thank you.",legitimate,password_reminder,L01
+M0367,"FW: Hello, URGENT: scheduled maintenance on cloud storage tonight from 22:00 to 23:30. Expect short downtime; no action is required",legitimate,maintenance_urgent,L02
+M0368,"Dear Ravi, we could not deliver your parcel. Pay the redelivery fee of $8.19 within 24 hours to avoid return: http://payroll-update.test/form",phishing,delivery_fee,P05
+M0369,"FW: Good morning Sam, are you free for lunch on Tuesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0370,"Hello Omar, as requested, your company intranet account will be closed in 14 days. Your data can be exported until then from https://payments.example.net/receipts",legitimate,account_closure,L17
+M0371,"Hello, your order A61229 has shipped and should arrive on 6 February. Track it here: https://intranet.example.com/it/password",legitimate,order_shipped,L04
+M0372,"hi nina, please verify your attendance for the march training session by replying yes or no. places are limited.",legitimate,attendance_verify,L16
+M0373,"Hello Priya, this month's security tip: be careful with unexpected links and never share your shared drive password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0374,"Dear Sam, Nina shared the document 'meeting notes' with you in the shared drive. Open it from your normal workspace at https://support.example.com/tickets",legitimate,shared_document,L13
+M0375,"Dear Priya, please verify your attendance for the April training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0376,"Hello Jordan, payroll records for March need re-confirmation. Submit your bank and ID details through the form: http://payroll-update.test/form Kind regards",phishing,payroll_update,P11
+M0377,"Hi Chen, please verify your attendance for the March training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0378,"Dear Ravi, Sam shared the document 'policy update' with you in the shared drive. Open it from your normal workspace at https://portal.example.com/hr/benefits",legitimate,shared_document,L13
+M0379,"Dear Maria, a courier will deliver your parcel on 19 January between 8:15 and 18:30. No payment is required.",legitimate,courier_notice,L18
+M0380,"Hello, URGENT: your video-conferencing account will be suspended in 48 hours unless you verify your identity. Sign in here: http://mail-support.test/verify",phishing,account_suspension,P01
+M0381,"Hello Ravi, your order A23237 has shipped and should arrive on 26 May. Track it here: https://docs.example.com/policies",legitimate,order_shipped,L04
+M0382,"Hi Taylor, we noticed a new sign-in to your cloud storage account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0383,"Hello Jordan, Ravi shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://www.example.com/orders/track",legitimate,shared_document,L13
+M0384,"Hello Maria, as part of a routine review, we ask all staff to confirm their cloud storage sign-in details. It only takes a minute: https://login-update.example.net/secure Thank you for your cooperation.",phishing,routine_review,P02
+M0385,"Hi Omar, Omar shared a document with you: 'policy update'. View it by signing in with your online banking credentials: http://mail-support.test/verify",phishing,shared_document,P09
+M0386,"Hi Alex, please submit your expense report for December by 2 May. Instructions are on the finance page: https://payments.example.net/receipts Thank you.",legitimate,expenses,L11
+M0387,"Hello Alex, payroll records for December need re-confirmation. Submit your bank and ID details through the form: https://portal.example.com.session-check.example.net/signin Thanks,",phishing,payroll_update,P11
+M0388,"Dear Ravi, you have been selected to receive a gift voucher. Claim it before it expires: https://secure-signin.example.invalid/confirm",phishing,prize,P08
+M0389,"Hi Chen, are you free for lunch on Tuesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0390,"Good morning Diego, this month's security tip: be careful with unexpected links and never share your video-conferencing password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0391,"Good morning Omar, urgent: the project report is due Tuesday at 9:45. Please send your sections to me today so we can review them",legitimate,deadline_urgent,L14
+M0392,"FW: Hello Taylor, please submit your expense report for February by 17 March. Instructions are on the finance page: https://news.example.org/newsletter Kind regards.",legitimate,expenses,L11
+M0393,"Hello, your support ticket TCK-892 has been resolved. Reply to this message within 5 days if the problem persists.",legitimate,ticket_resolved,L10
+M0394,"Hello, your shared drive password has expired. To keep access, reset it using this link: http://account-verify.example.net/login",phishing,password_expiry,P03
+M0395,"Dear Ravi, your support ticket TCK-184 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0396,"Dear Alex, we could not deliver your parcel. Pay the redelivery fee of $6.26 within 6 hours to avoid return: https://secure-signin.example.invalid/confirm",phishing,delivery_fee,P05
+M0397,"Hello, reminder: your email password expires in 30 days. You can change it from the company portal at https://payments.example.net/receipts. IT will never ask for your password by email",legitimate,password_reminder,L01
+M0398,"Hello, as requested, your payroll portal account will be closed in 5 days. Your data can be exported until then from https://www.example.com/orders/track",legitimate,account_closure,L17
+M0399,"Good morning Chen, we detected a new sign-in to your email account. If this was not you, cancel the request by entering your one-time code at http://docs-viewer.example.invalid/open",phishing,mfa_prompt,P10
+M0400,"hello ravi, this month's security tip: be careful with unexpected links and never share your company intranet password or one-time codes with anyone, including it staff.",legitimate,security_awareness,L07
+M0401,"Hi Priya, we detected a new sign-in to your payroll portal account. If this was not you, cancel the request by entering your one-time code at http://mail-support.test/verify",phishing,mfa_prompt,P10
+M0402,"Good morning Sam, we have received your payment of $4094.05. Thank you. A receipt is available in your account area at https://news.example.org/newsletter",legitimate,payment_received,L15
+M0403,"Hello Omar, your support ticket TCK-496 has been resolved. Reply to this message within 14 days if the problem persists.",legitimate,ticket_resolved,L10
+M0404,"Hello, you have been selected to receive a cash reward. Claim it before it expires: https://login-update.example.net/secure",phishing,prize,P08
+M0405,"Good morning Taylor, we could not deliver your parcel. Pay the redelivery fee of $4.45 within 48 hours to avoid return: https://example.com-helpdesk.example.org/reset",phishing,delivery_fee,P05
+M0406,"Good morning Maria, we noticed a new sign-in to your cloud storage account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0407,"Hi Priya, URGENT: scheduled maintenance on VPN tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0408,"Good morning Ravi, Diego shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://calendar.example.com/event",legitimate,shared_document,L13
+M0409,"Hello Maria, you have been selected to receive a cash reward. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0410,"Good morning Priya, reminder: team meeting on Tuesday at 11:45 in room 3.04. Agenda: quarterly goals.",legitimate,meeting,L05
+M0411,"Hi Diego, your support ticket TCK-538 has been resolved. Reply to this message within 5 days if the problem persists",legitimate,ticket_resolved,L10
+M0412,"Hello, invoice INV-4611 for $3719.75 is overdue. Open the secure document to review payment details: https://portal.example.com.session-check.example.net/signin",phishing,invoice,P04
+M0413,"Hello, a courier will deliver your parcel on 13 February between 10:00 and 18:30. No payment is required. Best regards",legitimate,courier_notice,L18
+M0414,"Good morning Taylor, reminder: team meeting on Monday at 14:45 in room B12. Agenda: roadmap review. Kind regards",legitimate,meeting,L05
+M0415,"Dear Ravi, your support ticket TCK-760 has been resolved. Reply to this message within 14 days if the problem persists.",legitimate,ticket_resolved,L10
+M0416,"Dear Maria, URGENT: scheduled maintenance on online banking tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0417,"dear taylor, invoice inv-1755 for $884.66 is attached. payment is due on 25 november. questions can be sent to the accounts team. kind regards.",legitimate,invoice,L03
+M0418,"good morning alex, please verify your attendance for the november training session by replying yes or no. places are limited.",legitimate,attendance_verify,L16
+M0419,"Hello Chen, our security team noticed unusual activity on your video-conferencing account. Please review and confirm your details at http://docs-viewer.example.invalid/open so we can keep your account safe.",phishing,security_alert_polite,P14
+M0420,"Hello Maria, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0421,"hello, urgent: scheduled maintenance on cloud storage tonight from 22:00 to 23:30. expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0422,"Hello Diego, this month's security tip: be careful with unexpected links and never share your online banking password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0423,"Hello, reminder: team meeting on Thursday at 13:45 in room Atlas. Agenda: budget check-in. Kind regards.",legitimate,meeting,L05
+M0424,"hello maria, the april newsletter is out: new starters, an office move update and the quarterly results summary. read it at https://portal.example.com/hr/benefits",legitimate,newsletter,L09
+M0425,"hello omar, maria shared the document 'vendor list' with you in the shared drive. open it from your normal workspace at https://www.example.com/orders/track",legitimate,shared_document,L13
+M0426,"Good morning Jordan, URGENT: scheduled maintenance on shared drive tonight from 22:00 to 23:30. Expect short downtime; no action is required",legitimate,maintenance_urgent,L02
+M0427,"Dear Chen, please submit your expense report for December by 27 November. Instructions are on the finance page: https://calendar.example.com/event Thanks,",legitimate,expenses,L11
+M0428,"Dear Omar, URGENT: your video-conferencing account will be suspended in 2 hours unless you verify your identity. Sign in here: https://login-update.example.net/secure",phishing,account_suspension,P01
+M0429,"Dear Omar, URGENT: scheduled maintenance on email tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0430,"Hello, we have received your payment of $1733.83. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0431,"Good morning Ravi, a courier will deliver your parcel on 16 September between 10:15 and 18:00. No payment is required. Best regards.",legitimate,courier_notice,L18
+M0432,"hello lena, we could not deliver your parcel. pay the redelivery fee of $3.80 within 24 hours to avoid return: http://payroll-update.test/form",phishing,delivery_fee,P05
+M0433,"Hello, reminder: team meeting on Wednesday at 9:00 in room Atlas. Agenda: quarterly goals. Best regards.",legitimate,meeting,L05
+M0434,"Hello, this month's security tip: be careful with unexpected links and never share your payroll portal password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0435,"good morning maria, as part of a routine review, we ask all staff to confirm their cloud storage sign-in details. it only takes a minute: https://login-update.example.net/secure thank you for your cooperation.",phishing,routine_review,P02
+M0436,"Hello, Sam shared the document 'team roster' with you in the shared drive. Open it from your normal workspace at https://www.example.com/orders/track",legitimate,shared_document,L13
+M0437,"FW: hello, payroll records for november need re-confirmation. submit your bank and id details through the form: http://payroll-update.test/form thank you.",phishing,payroll_update,P11
+M0438,"good morning maria, payroll records for september need re-confirmation. submit your bank and id details through the form: http://mail-support.test/verify thank you.",phishing,payroll_update,P11
+M0439,"Dear Omar, URGENT: your company intranet account will be suspended in 2 hours unless you verify your identity. Sign in here: https://login-update.example.net/secure",phishing,account_suspension,P01
+M0440,"Dear Jordan, you are eligible for a refund of $3086.16. Confirm your card details to receive it: https://portal.example.com.session-check.example.net/signin",phishing,refund,P13
+M0441,"hello, reminder: your video-conferencing password expires in 3 days. you can change it from the company portal at https://payments.example.net/receipts. it will never ask for your password by email. thanks,",legitimate,password_reminder,L01
+M0442,"Dear Diego, payroll records for February need re-confirmation. Submit your bank and ID details through the form: https://portal.example.com.session-check.example.net/signin Kind regards.",phishing,payroll_update,P11
+M0443,"hello lena, urgent: scheduled maintenance on video-conferencing tonight from 22:00 to 23:30. expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0444,"Hello Ravi, we noticed a new sign-in to your cloud storage account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0445,"Hello, a courier will deliver your parcel on 21 February between 11:15 and 20:00. No payment is required. Thanks,",legitimate,courier_notice,L18
+M0446,"Hello Nina, your order A78150 has shipped and should arrive on 25 August. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0447,"Hello, you are eligible for a refund of $3324.08. Confirm your card details to receive it: http://payroll-update.test/form",phishing,refund,P13
+M0448,"Dear Jordan, your order A30643 has shipped and should arrive on 9 February. Track it here: https://intranet.example.com/it/password",legitimate,order_shipped,L04
+M0449,"hello, as requested, your vpn account will be closed in 14 days. your data can be exported until then from https://news.example.org/newsletter",legitimate,account_closure,L17
+M0450,"FW: Hello, we detected a new sign-in to your video-conferencing account. If this was not you, cancel the request by entering your one-time code at https://login-update.example.net/secure",phishing,mfa_prompt,P10
+M0451,"Hello, our security team noticed unusual activity on your shared drive account. Please review and confirm your details at http://account-verify.example.net/login so we can keep your account safe.",phishing,security_alert_polite,P14
+M0452,"Hi Taylor, we have received your payment of $2326.20. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0453,"Good morning Maria, reminder: team meeting on Monday at 11:45 in room 3.04. Agenda: roadmap review. Kind regards",legitimate,meeting,L05
+M0454,"Good morning Priya, we detected a new sign-in to your payroll portal account. If this was not you, cancel the request by entering your one-time code at http://docs-viewer.example.invalid/open",phishing,mfa_prompt,P10
+M0455,"good morning chen, are you at your desk? i am in a meeting and need a favour. please buy 6 gift cards for a client and send me the codes. keep this between us for now.",phishing,gift_card_fraud,P06
+M0456,"Hello Priya, our security team noticed unusual activity on your VPN account. Please review and confirm your details at http://docs-viewer.example.invalid/open so we can keep your account safe.",phishing,security_alert_polite,P14
+M0457,"good morning taylor, urgent: your payroll portal account will be suspended in 12 hours unless you verify your identity. sign in here: http://account-verify.example.net/login",phishing,account_suspension,P01
+M0458,"FW: hello, reminder: team meeting on tuesday at 16:00 in room atlas. agenda: onboarding update. thank you.",legitimate,meeting,L05
+M0459,"Hi Lena, URGENT: scheduled maintenance on video-conferencing tonight from 22:00 to 23:30. Expect short downtime; no action is required",legitimate,maintenance_urgent,L02
+M0460,"Hi Ravi, please verify your attendance for the March training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0461,"Hello, Taylor shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0462,"Dear Maria, you are eligible for a refund of $4213.51. Confirm your card details to receive it: http://docs-viewer.example.invalid/open",phishing,refund,P13
+M0463,"FW: Dear Diego, we noticed a new sign-in to your cloud storage account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0464,"Dear Omar, Ravi shared a document with you: 'vendor list'. View it by signing in with your cloud storage credentials: https://portal.example.com.session-check.example.net/signin",phishing,shared_document,P09
+M0465,"Dear Jordan, we have received your payment of $2318.40. Thank you. A receipt is available in your account area at https://intranet.example.com/it/password",legitimate,payment_received,L15
+M0466,"Good morning Diego, your support ticket TCK-926 has been resolved. Reply to this message within 14 days if the problem persists.",legitimate,ticket_resolved,L10
+M0467,"FW: Good morning Ravi, invoice INV-5044 for $4347.42 is attached. Payment is due on 19 August. Questions can be sent to the accounts team. Best regards",legitimate,invoice,L03
+M0468,"FW: Hello, are you at your desk? I am in a meeting and need a favour. Please buy 6 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0469,"hello, your order a52914 has shipped and should arrive on 16 november. track it here: https://intranet.example.com/it/password",legitimate,order_shipped,L04
+M0470,"Good morning Omar, invoice INV-8517 for $1210.33 is overdue. Open the secure document to review payment details: http://mail-support.test/verify",phishing,invoice,P04
+M0471,"hello taylor, payroll records for march need re-confirmation. submit your bank and id details through the form: https://portal.example.com.session-check.example.net/signin thank you.",phishing,payroll_update,P11
+M0472,"Good morning Ravi, we have received your payment of $2211.43. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0473,"Hi Lena, Ravi shared the document 'budget summary' with you in the shared drive. Open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0474,"FW: Dear Diego, payroll records for December need re-confirmation. Submit your bank and ID details through the form: https://login-update.example.net/secure Best regards.",phishing,payroll_update,P11
+M0475,"Dear Lena, our security team noticed unusual activity on your email account. Please review and confirm your details at http://payroll-update.test/form so we can keep your account safe.",phishing,security_alert_polite,P14
+M0476,"hi sam, urgent: the project report is due tuesday at 10:30. please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0477,"Hi Priya, please verify your attendance for the September training session by replying yes or no. Places are limited",legitimate,attendance_verify,L16
+M0478,"hello, a courier will deliver your parcel on 26 november between 9:30 and 17:30. no payment is required. thank you.",legitimate,courier_notice,L18
+M0479,"Good morning Priya, as requested, your payroll portal account will be closed in 14 days. Your data can be exported until then from https://payments.example.net/receipts",legitimate,account_closure,L17
+M0480,"Hello, we could not deliver your parcel. Pay the redelivery fee of $4.35 within 24 hours to avoid return: https://secure-signin.example.invalid/confirm",phishing,delivery_fee,P05
+M0481,"FW: Hello Omar, Sam shared a document with you: 'meeting notes'. View it by signing in with your company intranet credentials: http://docs-viewer.example.invalid/open",phishing,shared_document,P09
+M0482,"Hello, payroll records for April need re-confirmation. Submit your bank and ID details through the form: http://mail-support.test/verify Kind regards.",phishing,payroll_update,P11
+M0483,"FW: Hello Diego, as requested, your cloud storage account will be closed in 7 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0484,"Good morning Nina, Priya shared the document 'meeting notes' with you in the shared drive. Open it from your normal workspace at https://news.example.org/newsletter",legitimate,shared_document,L13
+M0485,"FW: dear chen, we noticed a new sign-in to your vpn account from a new device. if this was you, no action is needed. if not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0486,"Hello Alex, please submit your expense report for October by 2 March. Instructions are on the finance page: https://docs.example.com/policies Kind regards.",legitimate,expenses,L11
+M0487,"Hello Nina, we could not deliver your parcel. Pay the redelivery fee of $4.36 within 12 hours to avoid return: http://account-verify.example.net/login",phishing,delivery_fee,P05
+M0488,"Dear Diego, your company intranet password has expired. To keep access, reset it using this link: https://portal.example.com.session-check.example.net/signin",phishing,password_expiry,P03
+M0489,"dear nina, your support ticket tck-814 has been resolved. reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0490,"dear omar, this month's security tip: be careful with unexpected links and never share your shared drive password or one-time codes with anyone, including it staff.",legitimate,security_awareness,L07
+M0491,"Hello Diego, you have been selected to receive a new phone. Claim it before it expires: https://login-update.example.net/secure",phishing,prize,P08
+M0492,"Hi Nina, are you at your desk? I am in a meeting and need a favour. Please buy 2 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0493,"Good morning Nina, are you at your desk? I am in a meeting and need a favour. Please buy 3 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0494,"Hello Lena, are you at your desk? I am in a meeting and need a favour. Please buy 5 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0495,"hello jordan, you have been selected to receive a new phone. claim it before it expires: http://payroll-update.test/form",phishing,prize,P08
+M0496,"Hi Chen, your support ticket TCK-803 has been resolved. Reply to this message within 30 days if the problem persists.",legitimate,ticket_resolved,L10
+M0497,"Hello, Chen shared a document with you: 'budget summary'. View it by signing in with your company intranet credentials: https://secure-signin.example.invalid/confirm",phishing,shared_document,P09
+M0498,"Good morning Alex, we have received your payment of $323.36. Thank you. A receipt is available in your account area at https://intranet.example.com/it/password",legitimate,payment_received,L15
+M0499,"Hi Alex, this month's security tip: be careful with unexpected links and never share your video-conferencing password or one-time codes with anyone, including IT staff",legitimate,security_awareness,L07
+M0500,"Good morning Taylor, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12
+M0501,"FW: Good morning Jordan, are you free for lunch on Friday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0502,"Good morning Taylor, as part of a routine review, we ask all staff to confirm their cloud storage sign-in details. It only takes a minute: http://account-verify.example.net/login Thank you for your cooperation.",phishing,routine_review,P02
+M0503,"good morning ravi, your support ticket tck-663 has been resolved. reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0504,"Hi Maria, we detected a new sign-in to your video-conferencing account. If this was not you, cancel the request by entering your one-time code at https://portal.example.com.session-check.example.net/signin",phishing,mfa_prompt,P10
+M0505,"Hello, the August newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://docs.example.com/policies",legitimate,newsletter,L09
+M0506,"Hello, we detected a new sign-in to your email account. If this was not you, cancel the request by entering your one-time code at http://mail-support.test/verify",phishing,mfa_prompt,P10
+M0507,"Hi Alex, URGENT: scheduled maintenance on shared drive tonight from 22:00 to 23:30. Expect short downtime; no action is required",legitimate,maintenance_urgent,L02
+M0508,"Good morning Maria, payroll records for June need re-confirmation. Submit your bank and ID details through the form: http://payroll-update.test/form Thank you.",phishing,payroll_update,P11
+M0509,"Hi Sam, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12
+M0510,"Hello Lena, we noticed a new sign-in to your online banking account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0511,"Hello Jordan, urgent: the project report is due Wednesday at 11:45. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0512,"Dear Lena, please submit your expense report for November by 7 October. Instructions are on the finance page: https://www.example.com/orders/track",legitimate,expenses,L11
+M0513,"hello, urgent: scheduled maintenance on payroll portal tonight from 22:00 to 23:30. expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0514,"FW: Hello, your video-conferencing password has expired. To keep access, reset it using this link: https://secure-signin.example.invalid/confirm Thanks,",phishing,password_expiry,P03
+M0515,"Good morning Sam, open enrolment for benefits closes on 5 October. Review your options at https://payments.example.net/receipts. Best regards.",legitimate,hr_benefits,L06
+M0516,"Hi Sam, your email password has expired. To keep access, reset it using this link: http://mail-support.test/verify Best regards.",phishing,password_expiry,P03
+M0517,"Good morning Chen, our security team noticed unusual activity on your email account. Please review and confirm your details at http://account-verify.example.net/login so we can keep your account safe.",phishing,security_alert_polite,P14
+M0518,"Dear Ravi, your order A30352 has shipped and should arrive on 3 November. Track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0519,"Hello, please verify your attendance for the January training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0520,"Dear Taylor, this month's security tip: be careful with unexpected links and never share your payroll portal password or one-time codes with anyone, including IT staff",legitimate,security_awareness,L07
+M0521,"hello omar, please submit your expense report for february by 7 november. instructions are on the finance page: https://news.example.org/newsletter",legitimate,expenses,L11
+M0522,"Dear Jordan, you have been selected to receive a cash reward. Claim it before it expires: http://payroll-update.test/form",phishing,prize,P08
+M0523,"Good morning Nina, you have been selected to receive a new phone. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0524,"Good morning Alex, please verify your attendance for the August training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0525,"hello ravi, a courier will deliver your parcel on 6 may between 10:45 and 19:30. no payment is required. thanks,",legitimate,courier_notice,L18
+M0526,"FW: Hi Diego, we noticed a new sign-in to your video-conferencing account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0527,"Hi Sam, a courier will deliver your parcel on 10 August between 10:45 and 20:00. No payment is required. Thank you.",legitimate,courier_notice,L18
+M0528,"Hi Taylor, as part of a routine review, we ask all staff to confirm their company intranet sign-in details. It only takes a minute: https://portal.example.com.session-check.example.net/signin Thank you for your cooperation.",phishing,routine_review,P02
+M0529,"Hi Jordan, please verify your attendance for the April training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0530,"Dear Ravi, urgent: the project report is due Monday at 16:00. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0531,"Dear Alex, please verify your attendance for the May training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0532,"Good morning Lena, your shared drive password has expired. To keep access, reset it using this link: http://payroll-update.test/form Kind regards",phishing,password_expiry,P03
+M0533,"Hello, we have received your payment of $1925.74. Thank you. A receipt is available in your account area at https://intranet.example.com/it/password",legitimate,payment_received,L15
+M0534,"hi sam, a courier will deliver your parcel on 17 march between 15:30 and 19:30. no payment is required. best regards.",legitimate,courier_notice,L18
+M0535,"Hello, we noticed a new sign-in to your company intranet account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0536,"FW: Good morning Taylor, as requested, your email account will be closed in 7 days. Your data can be exported until then from https://www.example.com/orders/track",legitimate,account_closure,L17
+M0537,"Dear Omar, reminder: your cloud storage password expires in 30 days. You can change it from the company portal at https://calendar.example.com/event. IT will never ask for your password by email.",legitimate,password_reminder,L01
+M0538,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Best regards",phishing,macro_attachment,P12
+M0539,"Dear Sam, our security team noticed unusual activity on your cloud storage account. Please review and confirm your details at https://example.com-helpdesk.example.org/reset so we can keep your account safe.",phishing,security_alert_polite,P14
+M0540,"good morning taylor, invoice inv-6178 for $1012.63 is attached. payment is due on 24 november. questions can be sent to the accounts team. thank you.",legitimate,invoice,L03
+M0541,"Hi Lena, we could not deliver your parcel. Pay the redelivery fee of $9.71 within 48 hours to avoid return: https://login-update.example.net/secure",phishing,delivery_fee,P05
+M0542,"hi nina, you are eligible for a refund of $734.36. confirm your card details to receive it: http://docs-viewer.example.invalid/open",phishing,refund,P13
+M0543,"Hi Priya, we detected a new sign-in to your VPN account. If this was not you, cancel the request by entering your one-time code at http://account-verify.example.net/login",phishing,mfa_prompt,P10
+M0544,"Hi Nina, as part of a routine review, we ask all staff to confirm their email sign-in details. It only takes a minute: http://account-verify.example.net/login Thank you for your cooperation.",phishing,routine_review,P02
+M0545,"Hi Ravi, are you free for lunch on Friday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0546,"FW: Hello Sam, the June newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0547,"Hi Jordan, we noticed a new sign-in to your company intranet account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0548,"hello, the september newsletter is out: new starters, an office move update and the quarterly results summary. read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0549,"hello priya, priya shared a document with you: 'vendor list'. view it by signing in with your shared drive credentials: https://portal.example.com.session-check.example.net/signin",phishing,shared_document,P09
+M0550,"Hello, Chen shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://payments.example.net/receipts",legitimate,shared_document,L13
+M0551,"Hello Diego, as requested, your VPN account will be closed in 3 days. Your data can be exported until then from https://calendar.example.com/event",legitimate,account_closure,L17
+M0552,"Dear Jordan, please submit your expense report for August by 14 April. Instructions are on the finance page: https://payments.example.net/receipts Kind regards.",legitimate,expenses,L11
+M0553,"Hello Alex, your order A60585 has shipped and should arrive on 15 December. Track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0554,"FW: dear alex, reminder: team meeting on wednesday at 16:00 in room b12. agenda: quarterly goals. kind regards.",legitimate,meeting,L05
+M0555,"Hi Omar, we have received your payment of $3099.17. Thank you. A receipt is available in your account area at https://news.example.org/newsletter",legitimate,payment_received,L15
+M0556,"Hello, we have received your payment of $3109.17. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0557,"Hello Ravi, open enrolment for benefits closes on 5 December. Review your options at https://portal.example.com/hr/benefits. Thanks,",legitimate,hr_benefits,L06
+M0558,"Hi Sam, URGENT: scheduled maintenance on shared drive tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0559,"FW: dear alex, as part of a routine review, we ask all staff to confirm their vpn sign-in details. it only takes a minute: https://login-update.example.net/secure thank you for your cooperation.",phishing,routine_review,P02
+M0560,"dear maria, you are eligible for a refund of $1249.30. confirm your card details to receive it: https://secure-signin.example.invalid/confirm",phishing,refund,P13
+M0561,"Hi Ravi, we detected a new sign-in to your payroll portal account. If this was not you, cancel the request by entering your one-time code at http://account-verify.example.net/login",phishing,mfa_prompt,P10
+M0562,"Dear Lena, Omar shared the document 'budget summary' with you in the shared drive. Open it from your normal workspace at https://news.example.org/newsletter",legitimate,shared_document,L13
+M0563,"Dear Lena, invoice INV-2738 for $2414.87 is attached. Payment is due on 10 October. Questions can be sent to the accounts team. Thank you.",legitimate,invoice,L03
+M0564,"Hi Alex, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0565,"FW: Hi Ravi, please find the attached scan of the signed contract. Enable macros to view the content.",phishing,macro_attachment,P12
+M0566,"Hello, your payroll portal password has expired. To keep access, reset it using this link: http://docs-viewer.example.invalid/open",phishing,password_expiry,P03
+M0567,"Hi Ravi, payroll records for October need re-confirmation. Submit your bank and ID details through the form: http://mail-support.test/verify Thanks,",phishing,payroll_update,P11
+M0568,"Hello Alex, are you free for lunch on Tuesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0569,"Dear Lena, open enrolment for benefits closes on 8 March. Review your options at https://www.example.com/orders/track. Thank you.",legitimate,hr_benefits,L06
+M0570,"dear jordan, we noticed a new sign-in to your vpn account from a new device. if this was you, no action is needed. if not, contact the service desk on the internal extension",legitimate,new_device_notice,L08
+M0571,"Dear Ravi, you have been selected to receive a holiday package. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0572,"Good morning Sam, Alex shared a document with you: 'budget summary'. View it by signing in with your online banking credentials: https://secure-signin.example.invalid/confirm",phishing,shared_document,P09
+M0573,"Hi Maria, invoice INV-8960 for $3731.42 is attached. Payment is due on 20 November. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0574,"Good morning Jordan, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0575,"Hello, your order A76493 has shipped and should arrive on 4 March. Track it here: https://portal.example.com/hr/benefits",legitimate,order_shipped,L04
+M0576,"Good morning Lena, invoice INV-6530 for $2148.97 is overdue. Open the secure document to review payment details: http://payroll-update.test/form",phishing,invoice,P04
+M0577,"Good morning Omar, reminder: team meeting on Wednesday at 15:00 in room 3.04. Agenda: onboarding update.",legitimate,meeting,L05
+M0578,"Good morning Nina, open enrolment for benefits closes on 4 March. Review your options at https://docs.example.com/policies. Best regards.",legitimate,hr_benefits,L06
+M0579,"Hi Maria, Lena shared a document with you: 'policy update'. View it by signing in with your shared drive credentials: https://login-update.example.net/secure",phishing,shared_document,P09
+M0580,"Dear Taylor, reminder: team meeting on Friday at 10:30 in room B12. Agenda: roadmap review. Best regards.",legitimate,meeting,L05
+M0581,"FW: Dear Nina, the March newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0582,"hi sam, you have been selected to receive a holiday package. claim it before it expires: http://docs-viewer.example.invalid/open",phishing,prize,P08
+M0583,"Hello Jordan, please submit your expense report for January by 26 August. Instructions are on the finance page: https://intranet.example.com/it/password Kind regards.",legitimate,expenses,L11
+M0584,"hello omar, the september newsletter is out: new starters, an office move update and the quarterly results summary. read it at https://intranet.example.com/it/password",legitimate,newsletter,L09
+M0585,"Dear Ravi, please verify your attendance for the October training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0586,"Good morning Nina, a courier will deliver your parcel on 25 March between 13:45 and 18:30. No payment is required. Thanks,",legitimate,courier_notice,L18
+M0587,"hi priya, you have been selected to receive a holiday package. claim it before it expires: http://account-verify.example.net/login",phishing,prize,P08
+M0588,"Dear Taylor, you are eligible for a refund of $2782.55. Confirm your card details to receive it: http://mail-support.test/verify",phishing,refund,P13
+M0589,"hello chen, our security team noticed unusual activity on your company intranet account. please review and confirm your details at http://docs-viewer.example.invalid/open so we can keep your account safe.",phishing,security_alert_polite,P14
+M0590,"Good morning Nina, your payroll portal password has expired. To keep access, reset it using this link: http://mail-support.test/verify Best regards.",phishing,password_expiry,P03
+M0591,"Hi Alex, your order A54742 has shipped and should arrive on 12 November. Track it here: https://calendar.example.com/event",legitimate,order_shipped,L04
+M0592,"Hello, your order A51373 has shipped and should arrive on 23 January. Track it here: https://intranet.example.com/it/password",legitimate,order_shipped,L04
+M0593,"hi taylor, a courier will deliver your parcel on 12 july between 15:00 and 19:00. no payment is required. thank you.",legitimate,courier_notice,L18
+M0594,"Hello Alex, Priya shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://www.example.com/orders/track",legitimate,shared_document,L13
+M0595,"Good morning Diego, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12
+M0596,"Good morning Lena, as part of a routine review, we ask all staff to confirm their shared drive sign-in details. It only takes a minute: https://portal.example.com.session-check.example.net/signin Thank you for your cooperation.",phishing,routine_review,P02
+M0597,"Hi Taylor, your support ticket TCK-541 has been resolved. Reply to this message within 5 days if the problem persists.",legitimate,ticket_resolved,L10
+M0598,"FW: Good morning Sam, payroll records for March need re-confirmation. Submit your bank and ID details through the form: http://account-verify.example.net/login Thank you.",phishing,payroll_update,P11
+M0599,"FW: Dear Chen, invoice INV-6161 for $3259.89 is overdue. Open the secure document to review payment details: http://docs-viewer.example.invalid/open",phishing,invoice,P04
+M0600,"good morning lena, please find the attached scan of the signed contract. enable macros to view the content.",phishing,macro_attachment,P12
+M0601,"Good morning Chen, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0602,"hi nina, we detected a new sign-in to your cloud storage account. if this was not you, cancel the request by entering your one-time code at http://payroll-update.test/form",phishing,mfa_prompt,P10
+M0603,"Hello Taylor, reminder: your online banking password expires in 5 days. You can change it from the company portal at https://news.example.org/newsletter. IT will never ask for your password by email. Thank you",legitimate,password_reminder,L01
+M0604,"Hello, please verify your attendance for the September training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0605,"Dear Ravi, the April newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://www.example.com/orders/track",legitimate,newsletter,L09
+M0606,"Good morning Omar, Alex shared a document with you: 'project plan'. View it by signing in with your video-conferencing credentials: https://example.com-helpdesk.example.org/reset",phishing,shared_document,P09
+M0607,"Hello Ravi, the June newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://payments.example.net/receipts",legitimate,newsletter,L09
+M0608,"FW: hi chen, a courier will deliver your parcel on 9 january between 12:45 and 18:00. no payment is required.",legitimate,courier_notice,L18
+M0609,"Dear Sam, reminder: your payroll portal password expires in 7 days. You can change it from the company portal at https://news.example.org/newsletter. IT will never ask for your password by email. Best regards",legitimate,password_reminder,L01
+M0610,"hello, reminder: your cloud storage password expires in 30 days. you can change it from the company portal at https://www.example.com/orders/track. it will never ask for your password by email.",legitimate,password_reminder,L01
+M0611,"Good morning Ravi, are you at your desk? I am in a meeting and need a favour. Please buy 3 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0612,"Hello Chen, open enrolment for benefits closes on 12 December. Review your options at https://payments.example.net/receipts. Kind regards.",legitimate,hr_benefits,L06
+M0613,"dear diego, you are eligible for a refund of $370.27. confirm your card details to receive it: http://docs-viewer.example.invalid/open",phishing,refund,P13
+M0614,"Hello, reminder: your email password expires in 5 days. You can change it from the company portal at https://calendar.example.com/event. IT will never ask for your password by email.",legitimate,password_reminder,L01
+M0615,"Hello Maria, open enrolment for benefits closes on 22 June. Review your options at https://docs.example.com/policies. Kind regards.",legitimate,hr_benefits,L06
+M0616,"Hi Ravi, open enrolment for benefits closes on 24 June. Review your options at https://intranet.example.com/it/password. Kind regards.",legitimate,hr_benefits,L06
+M0617,"hello, your order a49373 has shipped and should arrive on 2 december. track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0618,"Hi Lena, as part of a routine review, we ask all staff to confirm their company intranet sign-in details. It only takes a minute: http://account-verify.example.net/login Thank you for your cooperation.",phishing,routine_review,P02
+M0619,"Hi Chen, reminder: your shared drive password expires in 14 days. You can change it from the company portal at https://payments.example.net/receipts. IT will never ask for your password by email. Best regards",legitimate,password_reminder,L01
+M0620,"FW: Hello, URGENT: your VPN account will be suspended in 12 hours unless you verify your identity. Sign in here: https://login-update.example.net/secure",phishing,account_suspension,P01
+M0621,"Hi Diego, reminder: team meeting on Monday at 15:45 in room 2A. Agenda: roadmap review. Thank you",legitimate,meeting,L05
+M0622,"dear sam, are you at your desk? i am in a meeting and need a favour. please buy 3 gift cards for a client and send me the codes. keep this between us for now.",phishing,gift_card_fraud,P06
+M0623,"Dear Taylor, a courier will deliver your parcel on 26 July between 8:30 and 19:00. No payment is required. Thanks,",legitimate,courier_notice,L18
+M0624,"Hi Lena, reminder: your company intranet password expires in 7 days. You can change it from the company portal at https://news.example.org/newsletter. IT will never ask for your password by email. Best regards.",legitimate,password_reminder,L01
+M0625,"Hello Omar, your online banking password has expired. To keep access, reset it using this link: http://docs-viewer.example.invalid/open",phishing,password_expiry,P03
+M0626,"Dear Jordan, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0627,"Hello, as requested, your online banking account will be closed in 14 days. Your data can be exported until then from https://support.example.com/tickets",legitimate,account_closure,L17
+M0628,"Dear Priya, please submit your expense report for February by 16 April. Instructions are on the finance page: https://docs.example.com/policies Thank you.",legitimate,expenses,L11
+M0629,"Hi Lena, invoice INV-7358 for $4211.47 is attached. Payment is due on 16 September. Questions can be sent to the accounts team. Best regards.",legitimate,invoice,L03
+M0630,"Good morning Maria, reminder: team meeting on Thursday at 13:00 in room Orion. Agenda: sprint planning. Kind regards.",legitimate,meeting,L05
+M0631,"Hi Chen, Sam shared the document 'budget summary' with you in the shared drive. Open it from your normal workspace at https://docs.example.com/policies",legitimate,shared_document,L13
+M0632,"Good morning Diego, are you at your desk? I am in a meeting and need a favour. Please buy 3 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0633,"hi diego, are you free for lunch on monday? i was thinking of the place near the office. let me know",legitimate,personal,L12
+M0634,"Hello Ravi, open enrolment for benefits closes on 28 June. Review your options at https://www.example.com/orders/track. Kind regards.",legitimate,hr_benefits,L06
+M0635,"Good morning Lena, Alex shared a document with you: 'budget summary'. View it by signing in with your email credentials: http://mail-support.test/verify",phishing,shared_document,P09
+M0636,"FW: Good morning Priya, URGENT: your payroll portal account will be suspended in 12 hours unless you verify your identity. Sign in here: http://mail-support.test/verify",phishing,account_suspension,P01
+M0637,"hello, please find the attached scan of the signed contract. enable macros to view the content. kind regards.",phishing,macro_attachment,P12
+M0638,"Good morning Omar, as requested, your VPN account will be closed in 7 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0639,"FW: Hello, we noticed a new sign-in to your payroll portal account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0640,"FW: Dear Priya, as requested, your email account will be closed in 30 days. Your data can be exported until then from https://calendar.example.com/event",legitimate,account_closure,L17
+M0641,"Good morning Lena, invoice INV-6992 for $779.50 is overdue. Open the secure document to review payment details: http://account-verify.example.net/login",phishing,invoice,P04
+M0642,"Dear Jordan, please verify your attendance for the March training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0643,"FW: Hello, please verify your attendance for the March training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0644,"Good morning Chen, payroll records for September need re-confirmation. Submit your bank and ID details through the form: http://account-verify.example.net/login Thank you.",phishing,payroll_update,P11
+M0645,"FW: Hi Chen, invoice INV-2320 for $299.11 is overdue. Open the secure document to review payment details: https://example.com-helpdesk.example.org/reset",phishing,invoice,P04
+M0646,"Dear Alex, you are eligible for a refund of $219.18. Confirm your card details to receive it: http://mail-support.test/verify",phishing,refund,P13
+M0647,"Hi Diego, invoice INV-6277 for $2067.97 is overdue. Open the secure document to review payment details: https://example.com-helpdesk.example.org/reset",phishing,invoice,P04
+M0648,"Hello Jordan, you are eligible for a refund of $4087.59. Confirm your card details to receive it: http://payroll-update.test/form",phishing,refund,P13
+M0649,"FW: Good morning Taylor, your shared drive password has expired. To keep access, reset it using this link: https://login-update.example.net/secure Best regards.",phishing,password_expiry,P03
+M0650,"Hi Alex, as requested, your email account will be closed in 5 days. Your data can be exported until then from https://www.example.com/orders/track",legitimate,account_closure,L17
+M0651,"FW: Dear Priya, you have been selected to receive a new phone. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0652,"Hello Chen, urgent: the project report is due Monday at 15:45. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0653,"Dear Alex, a courier will deliver your parcel on 15 November between 14:45 and 19:00. No payment is required. Best regards.",legitimate,courier_notice,L18
+M0654,"Hi Diego, your support ticket TCK-570 has been resolved. Reply to this message within 30 days if the problem persists",legitimate,ticket_resolved,L10
+M0655,"Good morning Chen, Priya shared a document with you: 'budget summary'. View it by signing in with your online banking credentials: http://mail-support.test/verify",phishing,shared_document,P09
+M0656,"Hello Sam, we could not deliver your parcel. Pay the redelivery fee of $4.68 within 2 hours to avoid return: http://mail-support.test/verify",phishing,delivery_fee,P05
+M0657,"Hello, reminder: team meeting on Tuesday at 9:30 in room 3.04. Agenda: quarterly goals. Best regards.",legitimate,meeting,L05
+M0658,"FW: Good morning Ravi, urgent: the project report is due Tuesday at 13:30. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0659,"good morning chen, we could not deliver your parcel. pay the redelivery fee of $1.59 within 12 hours to avoid return: http://mail-support.test/verify",phishing,delivery_fee,P05
+M0660,"hi sam, please verify your attendance for the september training session by replying yes or no. places are limited.",legitimate,attendance_verify,L16
+M0661,"Hello, urgent: the project report is due Tuesday at 14:45. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0662,"Hi Nina, please submit your expense report for December by 11 November. Instructions are on the finance page: https://news.example.org/newsletter Thank you.",legitimate,expenses,L11
+M0663,"FW: Hello, are you free for lunch on Thursday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0664,"Hi Diego, we could not deliver your parcel. Pay the redelivery fee of $7.48 within 2 hours to avoid return: http://payroll-update.test/form",phishing,delivery_fee,P05
+M0665,"Hi Sam, as part of a routine review, we ask all staff to confirm their video-conferencing sign-in details. It only takes a minute: https://login-update.example.net/secure Thank you for your cooperation.",phishing,routine_review,P02
+M0666,"Hi Lena, the April newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://calendar.example.com/event",legitimate,newsletter,L09
+M0667,"Hi Omar, Taylor shared a document with you: 'team roster'. View it by signing in with your video-conferencing credentials: http://mail-support.test/verify",phishing,shared_document,P09
+M0668,"Hello Diego, Maria shared a document with you: 'budget summary'. View it by signing in with your email credentials: http://payroll-update.test/form",phishing,shared_document,P09
+M0669,"Dear Ravi, Nina shared the document 'budget summary' with you in the shared drive. Open it from your normal workspace at https://calendar.example.com/event",legitimate,shared_document,L13
+M0670,"Dear Lena, we noticed a new sign-in to your online banking account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0671,"Hello, open enrolment for benefits closes on 28 April. Review your options at https://portal.example.com/hr/benefits. Best regards.",legitimate,hr_benefits,L06
+M0672,"Dear Taylor, as requested, your cloud storage account will be closed in 5 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0673,"FW: Hello, you have been selected to receive a cash reward. Claim it before it expires: http://mail-support.test/verify",phishing,prize,P08
+M0674,"Hi Jordan, are you free for lunch on Thursday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0675,"Good morning Jordan, urgent: the project report is due Friday at 9:15. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0676,"Hi Taylor, your order A64493 has shipped and should arrive on 25 January. Track it here: https://www.example.com/orders/track",legitimate,order_shipped,L04
+M0677,"Good morning Omar, your support ticket TCK-426 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0678,"hello, please submit your expense report for november by 1 february. instructions are on the finance page: https://intranet.example.com/it/password best regards.",legitimate,expenses,L11
+M0679,"hello maria, the august newsletter is out: new starters, an office move update and the quarterly results summary. read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0680,"Good morning Jordan, your order A43902 has shipped and should arrive on 24 September. Track it here: https://support.example.com/tickets",legitimate,order_shipped,L04
+M0681,"FW: Hello, reminder: your company intranet password expires in 5 days. You can change it from the company portal at https://calendar.example.com/event. IT will never ask for your password by email. Best regards.",legitimate,password_reminder,L01
+M0682,"dear chen, you have been selected to receive a holiday package. claim it before it expires: https://login-update.example.net/secure",phishing,prize,P08
+M0683,"Dear Diego, reminder: team meeting on Friday at 10:45 in room 3.04. Agenda: quarterly goals. Thanks,",legitimate,meeting,L05
+M0684,"Good morning Jordan, a courier will deliver your parcel on 12 July between 13:15 and 20:00. No payment is required. Kind regards.",legitimate,courier_notice,L18
+M0685,"Dear Alex, a courier will deliver your parcel on 25 May between 12:30 and 20:30. No payment is required",legitimate,courier_notice,L18
+M0686,"Good morning Lena, as requested, your email account will be closed in 3 days. Your data can be exported until then from https://www.example.com/orders/track",legitimate,account_closure,L17
+M0687,"Dear Ravi, payroll records for August need re-confirmation. Submit your bank and ID details through the form: https://login-update.example.net/secure Thanks,",phishing,payroll_update,P11
+M0688,"Hello, the June newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://payments.example.net/receipts",legitimate,newsletter,L09
+M0689,"Hello Jordan, payroll records for July need re-confirmation. Submit your bank and ID details through the form: http://account-verify.example.net/login Kind regards.",phishing,payroll_update,P11
+M0690,"Hello Taylor, our security team noticed unusual activity on your VPN account. Please review and confirm your details at https://login-update.example.net/secure so we can keep your account safe.",phishing,security_alert_polite,P14
+M0691,"Hi Lena, your order A64842 has shipped and should arrive on 16 December. Track it here: https://portal.example.com/hr/benefits",legitimate,order_shipped,L04
+M0692,"FW: Hi Nina, open enrolment for benefits closes on 10 October. Review your options at https://support.example.com/tickets. Best regards.",legitimate,hr_benefits,L06
+M0693,"Hello, our security team noticed unusual activity on your VPN account. Please review and confirm your details at http://mail-support.test/verify so we can keep your account safe.",phishing,security_alert_polite,P14
+M0694,"FW: Hi Chen, our security team noticed unusual activity on your email account. Please review and confirm your details at http://payroll-update.test/form so we can keep your account safe.",phishing,security_alert_polite,P14
+M0695,"Hello, reminder: team meeting on Thursday at 16:45 in room Atlas. Agenda: budget check-in.",legitimate,meeting,L05
+M0696,"dear alex, a courier will deliver your parcel on 16 july between 15:45 and 18:00. no payment is required.",legitimate,courier_notice,L18
+M0697,"hello ravi, payroll records for december need re-confirmation. submit your bank and id details through the form: http://docs-viewer.example.invalid/open thanks,",phishing,payroll_update,P11
+M0698,"FW: Hello, invoice INV-2873 for $3832.41 is attached. Payment is due on 18 February. Questions can be sent to the accounts team. Best regards.",legitimate,invoice,L03
+M0699,"Hello, URGENT: scheduled maintenance on cloud storage tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0700,"Dear Ravi, Diego shared the document 'vendor list' with you in the shared drive. Open it from your normal workspace at https://portal.example.com/hr/benefits",legitimate,shared_document,L13
+M0701,"Hello Omar, as requested, your email account will be closed in 14 days. Your data can be exported until then from https://calendar.example.com/event",legitimate,account_closure,L17
+M0702,"hello diego, your order a78922 has shipped and should arrive on 14 august. track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0703,"Hi Diego, urgent: the project report is due Tuesday at 11:00. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0704,"Hello Omar, open enrolment for benefits closes on 19 August. Review your options at https://news.example.org/newsletter. Thanks,",legitimate,hr_benefits,L06
+M0705,"Dear Diego, we have received your payment of $2476.50. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0706,"Hello Nina, this month's security tip: be careful with unexpected links and never share your VPN password or one-time codes with anyone, including IT staff",legitimate,security_awareness,L07
+M0707,"hello, invoice inv-5135 for $2943.34 is overdue. open the secure document to review payment details: https://example.com-helpdesk.example.org/reset",phishing,invoice,P04
+M0708,"FW: Hi Maria, we noticed a new sign-in to your video-conferencing account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0709,"Dear Diego, you have been selected to receive a holiday package. Claim it before it expires: https://secure-signin.example.invalid/confirm",phishing,prize,P08
+M0710,"Hello Taylor, urgent: the project report is due Friday at 12:30. Please send your sections to me today so we can review them",legitimate,deadline_urgent,L14
+M0711,"Hello Alex, payroll records for July need re-confirmation. Submit your bank and ID details through the form: http://docs-viewer.example.invalid/open Thank you.",phishing,payroll_update,P11
+M0712,"hello, are you at your desk? i am in a meeting and need a favour. please buy 2 gift cards for a client and send me the codes. keep this between us for now.",phishing,gift_card_fraud,P06
+M0713,"Hello, we noticed a new sign-in to your video-conferencing account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0714,"hi lena, as requested, your video-conferencing account will be closed in 14 days. your data can be exported until then from https://www.example.com/orders/track",legitimate,account_closure,L17
+M0715,"Good morning Maria, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12
+M0716,"FW: Good morning Sam, you have been selected to receive a gift voucher. Claim it before it expires: https://login-update.example.net/secure",phishing,prize,P08
+M0717,"Dear Chen, we could not deliver your parcel. Pay the redelivery fee of $6.70 within 48 hours to avoid return: http://mail-support.test/verify",phishing,delivery_fee,P05
+M0718,"Hello Ravi, our security team noticed unusual activity on your online banking account. Please review and confirm your details at https://secure-signin.example.invalid/confirm so we can keep your account safe.",phishing,security_alert_polite,P14
+M0719,"hello omar, urgent: your vpn account will be suspended in 6 hours unless you verify your identity. sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0720,"Good morning Priya, we noticed a new sign-in to your payroll portal account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0721,"Hi Nina, as part of a routine review, we ask all staff to confirm their VPN sign-in details. It only takes a minute: https://portal.example.com.session-check.example.net/signin Thank you for your cooperation.",phishing,routine_review,P02
+M0722,"Hello Chen, please verify your attendance for the July training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0723,"Hello Jordan, urgent: the project report is due Wednesday at 16:00. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0724,"Dear Alex, URGENT: your video-conferencing account will be suspended in 12 hours unless you verify your identity. Sign in here: https://secure-signin.example.invalid/confirm",phishing,account_suspension,P01
+M0725,"Hello, URGENT: your video-conferencing account will be suspended in 24 hours unless you verify your identity. Sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0726,"Hi Lena, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12
+M0727,"Hi Omar, are you at your desk? I am in a meeting and need a favour. Please buy 6 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0728,"Hello, reminder: team meeting on Monday at 12:45 in room Atlas. Agenda: sprint planning",legitimate,meeting,L05
+M0729,"Dear Sam, we detected a new sign-in to your email account. If this was not you, cancel the request by entering your one-time code at https://secure-signin.example.invalid/confirm",phishing,mfa_prompt,P10
+M0730,"good morning diego, our security team noticed unusual activity on your payroll portal account. please review and confirm your details at http://payroll-update.test/form so we can keep your account safe.",phishing,security_alert_polite,P14
+M0731,"Dear Priya, we noticed a new sign-in to your company intranet account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0732,"hello taylor, the november newsletter is out: new starters, an office move update and the quarterly results summary. read it at https://intranet.example.com/it/password",legitimate,newsletter,L09
+M0733,"hello maria, as part of a routine review, we ask all staff to confirm their online banking sign-in details. it only takes a minute: https://portal.example.com.session-check.example.net/signin thank you for your cooperation.",phishing,routine_review,P02
+M0734,"Hello Alex, a courier will deliver your parcel on 24 May between 11:45 and 18:30. No payment is required.",legitimate,courier_notice,L18
+M0735,"Dear Lena, open enrolment for benefits closes on 3 October. Review your options at https://www.example.com/orders/track. Kind regards.",legitimate,hr_benefits,L06
+M0736,"Dear Sam, invoice INV-7476 for $1047.17 is attached. Payment is due on 24 September. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0737,"Hello, your support ticket TCK-892 has been resolved. Reply to this message within 14 days if the problem persists.",legitimate,ticket_resolved,L10
+M0738,"Hello, a courier will deliver your parcel on 18 August between 10:00 and 20:00. No payment is required. Kind regards.",legitimate,courier_notice,L18
+M0739,"FW: hello, invoice inv-8184 for $823.80 is attached. payment is due on 15 october. questions can be sent to the accounts team. thank you",legitimate,invoice,L03
+M0740,"Dear Alex, urgent: the project report is due Monday at 13:30. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0741,"Hello, a courier will deliver your parcel on 22 December between 8:15 and 20:00. No payment is required. Thank you.",legitimate,courier_notice,L18
+M0742,"hello, our security team noticed unusual activity on your email account. please review and confirm your details at https://secure-signin.example.invalid/confirm so we can keep your account safe.",phishing,security_alert_polite,P14
+M0743,"FW: Hi Ravi, please submit your expense report for May by 12 July. Instructions are on the finance page: https://www.example.com/orders/track Best regards.",legitimate,expenses,L11
+M0744,"Hi Lena, as part of a routine review, we ask all staff to confirm their email sign-in details. It only takes a minute: http://docs-viewer.example.invalid/open Thank you for your cooperation.",phishing,routine_review,P02
+M0745,"Hello, we noticed a new sign-in to your VPN account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0746,"Hello Maria, Alex shared the document 'budget summary' with you in the shared drive. Open it from your normal workspace at https://payments.example.net/receipts",legitimate,shared_document,L13
+M0747,"FW: Hi Nina, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0748,"Hello, your VPN password has expired. To keep access, reset it using this link: https://login-update.example.net/secure Kind regards.",phishing,password_expiry,P03
+M0749,"Hello Jordan, Jordan shared a document with you: 'project plan'. View it by signing in with your video-conferencing credentials: http://mail-support.test/verify",phishing,shared_document,P09
+M0750,"Hello, please find the attached scan of the signed contract. Enable macros to view the content. Kind regards.",phishing,macro_attachment,P12
+M0751,"Hello Priya, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0752,"Hello, reminder: team meeting on Thursday at 16:00 in room 2A. Agenda: quarterly goals. Thank you.",legitimate,meeting,L05
+M0753,"FW: Hello Diego, urgent: the project report is due Tuesday at 8:45. Please send your sections to me today so we can review them",legitimate,deadline_urgent,L14
+M0754,"Good morning Diego, a courier will deliver your parcel on 12 June between 14:15 and 17:00. No payment is required.",legitimate,courier_notice,L18
+M0755,"Dear Diego, we could not deliver your parcel. Pay the redelivery fee of $4.88 within 24 hours to avoid return: http://docs-viewer.example.invalid/open",phishing,delivery_fee,P05
+M0756,"Dear Lena, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0757,"Dear Taylor, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0758,"Good morning Omar, invoice INV-2847 for $2014.63 is overdue. Open the secure document to review payment details: https://secure-signin.example.invalid/confirm",phishing,invoice,P04
+M0759,"FW: Good morning Lena, our security team noticed unusual activity on your VPN account. Please review and confirm your details at http://payroll-update.test/form so we can keep your account safe.",phishing,security_alert_polite,P14
+M0760,"Hi Alex, please find the attached scan of the signed contract. Enable macros to view the content. Thanks,",phishing,macro_attachment,P12
+M0761,"Hello Chen, urgent: the project report is due Wednesday at 11:15. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0762,"dear sam, we have received your payment of $1444.13. thank you. a receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0763,"Good morning Maria, you have been selected to receive a new phone. Claim it before it expires: http://account-verify.example.net/login",phishing,prize,P08
+M0764,"dear chen, your company intranet password has expired. to keep access, reset it using this link: http://payroll-update.test/form thanks,",phishing,password_expiry,P03
+M0765,"Dear Omar, this month's security tip: be careful with unexpected links and never share your shared drive password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0766,"Hello, Jordan shared a document with you: 'team roster'. View it by signing in with your online banking credentials: https://portal.example.com.session-check.example.net/signin",phishing,shared_document,P09
+M0767,"Hello, your order A67986 has shipped and should arrive on 13 January. Track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0768,"Dear Priya, we noticed a new sign-in to your payroll portal account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0769,"Hello Diego, we have received your payment of $4141.14. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0770,"Dear Maria, invoice INV-3686 for $1052.11 is attached. Payment is due on 4 December. Questions can be sent to the accounts team. Best regards",legitimate,invoice,L03
+M0771,"Dear Priya, are you free for lunch on Thursday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0772,"Good morning Taylor, please submit your expense report for December by 27 October. Instructions are on the finance page: https://support.example.com/tickets Thanks,",legitimate,expenses,L11
+M0773,"Hello Chen, you are eligible for a refund of $3832.86. Confirm your card details to receive it: https://example.com-helpdesk.example.org/reset",phishing,refund,P13
+M0774,"Good morning Omar, are you at your desk? I am in a meeting and need a favour. Please buy 5 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0775,"Hi Omar, URGENT: your shared drive account will be suspended in 2 hours unless you verify your identity. Sign in here: https://secure-signin.example.invalid/confirm",phishing,account_suspension,P01
+M0776,"Hi Alex, please verify your attendance for the February training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0777,"Hello, our security team noticed unusual activity on your payroll portal account. Please review and confirm your details at http://payroll-update.test/form so we can keep your account safe.",phishing,security_alert_polite,P14
+M0778,"Dear Diego, we could not deliver your parcel. Pay the redelivery fee of $8.27 within 48 hours to avoid return: https://portal.example.com.session-check.example.net/signin",phishing,delivery_fee,P05
+M0779,"Hello Alex, Priya shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://payments.example.net/receipts",legitimate,shared_document,L13
+M0780,"Hi Ravi, payroll records for July need re-confirmation. Submit your bank and ID details through the form: http://account-verify.example.net/login Best regards.",phishing,payroll_update,P11
+M0781,"Dear Priya, please verify your attendance for the June training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0782,"good morning omar, nina shared the document 'project plan' with you in the shared drive. open it from your normal workspace at https://portal.example.com/hr/benefits",legitimate,shared_document,L13
+M0783,"Dear Maria, you are eligible for a refund of $3296.83. Confirm your card details to receive it: https://secure-signin.example.invalid/confirm",phishing,refund,P13
+M0784,"Good morning Taylor, are you free for lunch on Thursday? I was thinking of the place near the office. Let me know",legitimate,personal,L12
+M0785,"hello, please find the attached scan of the signed contract. enable macros to view the content. best regards.",phishing,macro_attachment,P12
+M0786,"FW: hello omar, please submit your expense report for november by 4 september. instructions are on the finance page: https://intranet.example.com/it/password",legitimate,expenses,L11
+M0787,"dear maria, your order a32756 has shipped and should arrive on 1 july. track it here: https://docs.example.com/policies",legitimate,order_shipped,L04
+M0788,"Hello Jordan, our security team noticed unusual activity on your email account. Please review and confirm your details at http://docs-viewer.example.invalid/open so we can keep your account safe.",phishing,security_alert_polite,P14
+M0789,"Good morning Ravi, your order A90691 has shipped and should arrive on 8 February. Track it here: https://www.example.com/orders/track",legitimate,order_shipped,L04
+M0790,"Hello, Lena shared a document with you: 'meeting notes'. View it by signing in with your email credentials: https://example.com-helpdesk.example.org/reset",phishing,shared_document,P09
+M0791,"Good morning Alex, a courier will deliver your parcel on 1 August between 12:15 and 17:00. No payment is required. Best regards.",legitimate,courier_notice,L18
+M0792,"FW: Hi Maria, this month's security tip: be careful with unexpected links and never share your VPN password or one-time codes with anyone, including IT staff",legitimate,security_awareness,L07
+M0793,"Hello, your video-conferencing password has expired. To keep access, reset it using this link: http://docs-viewer.example.invalid/open Thank you.",phishing,password_expiry,P03
+M0794,"Good morning Priya, invoice INV-9199 for $1021.87 is attached. Payment is due on 13 September. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0795,"Dear Omar, as requested, your online banking account will be closed in 7 days. Your data can be exported until then from https://news.example.org/newsletter",legitimate,account_closure,L17
+M0796,"hello, as part of a routine review, we ask all staff to confirm their vpn sign-in details. it only takes a minute: https://secure-signin.example.invalid/confirm thank you for your cooperation.",phishing,routine_review,P02
+M0797,"Good morning Omar, invoice INV-3932 for $3692.78 is attached. Payment is due on 12 May. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0798,"Hello Priya, your order A58819 has shipped and should arrive on 16 October. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0799,"Dear Priya, as requested, your email account will be closed in 30 days. Your data can be exported until then from https://www.example.com/orders/track",legitimate,account_closure,L17
+M0800,"Dear Jordan, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0801,"Hello, we have received your payment of $170.88. Thank you. A receipt is available in your account area at https://support.example.com/tickets",legitimate,payment_received,L15
+M0802,"Hello Jordan, please verify your attendance for the July training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0803,"Hello Ravi, you have been selected to receive a new phone. Claim it before it expires: http://payroll-update.test/form",phishing,prize,P08
+M0804,"Hello Jordan, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0805,"FW: Hello Ravi, Omar shared a document with you: 'budget summary'. View it by signing in with your email credentials: https://secure-signin.example.invalid/confirm",phishing,shared_document,P09
+M0806,"Hi Jordan, as requested, your online banking account will be closed in 30 days. Your data can be exported until then from https://support.example.com/tickets",legitimate,account_closure,L17
+M0807,"Hi Maria, we detected a new sign-in to your cloud storage account. If this was not you, cancel the request by entering your one-time code at http://mail-support.test/verify",phishing,mfa_prompt,P10
+M0808,"Dear Sam, invoice INV-4814 for $867.48 is overdue. Open the secure document to review payment details: https://portal.example.com.session-check.example.net/signin",phishing,invoice,P04
+M0809,"Hi Sam, your support ticket TCK-524 has been resolved. Reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0810,"Good morning Diego, invoice INV-4104 for $1186.04 is attached. Payment is due on 7 January. Questions can be sent to the accounts team.",legitimate,invoice,L03
+M0811,"good morning sam, open enrolment for benefits closes on 8 august. review your options at https://portal.example.com/hr/benefits. kind regards.",legitimate,hr_benefits,L06
+M0812,"Hello Omar, your support ticket TCK-472 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0813,"FW: Dear Sam, Chen shared a document with you: 'project plan'. View it by signing in with your company intranet credentials: http://mail-support.test/verify",phishing,shared_document,P09
+M0814,"Hello Jordan, reminder: your company intranet password expires in 7 days. You can change it from the company portal at https://news.example.org/newsletter. IT will never ask for your password by email. Thank you.",legitimate,password_reminder,L01
+M0815,"Hello Priya, URGENT: your VPN account will be suspended in 24 hours unless you verify your identity. Sign in here: https://login-update.example.net/secure",phishing,account_suspension,P01
+M0816,"Good morning Sam, your cloud storage password has expired. To keep access, reset it using this link: https://secure-signin.example.invalid/confirm Thank you.",phishing,password_expiry,P03
+M0817,"FW: Hello Alex, you have been selected to receive a gift voucher. Claim it before it expires: http://account-verify.example.net/login",phishing,prize,P08
+M0818,"Hi Omar, Priya shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://portal.example.com/hr/benefits",legitimate,shared_document,L13
+M0819,"Good morning Taylor, your order A51229 has shipped and should arrive on 28 July. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0820,"Dear Diego, Jordan shared the document 'team roster' with you in the shared drive. Open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0821,"hi ravi, this month's security tip: be careful with unexpected links and never share your email password or one-time codes with anyone, including it staff.",legitimate,security_awareness,L07
+M0822,"FW: Hello Diego, you have been selected to receive a new phone. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0823,"Hi Chen, invoice INV-2330 for $1326.30 is overdue. Open the secure document to review payment details: http://mail-support.test/verify",phishing,invoice,P04
+M0824,"Dear Priya, reminder: team meeting on Friday at 9:45 in room 2A. Agenda: budget check-in. Thanks,",legitimate,meeting,L05
+M0825,"Hi Nina, as requested, your payroll portal account will be closed in 3 days. Your data can be exported until then from https://support.example.com/tickets",legitimate,account_closure,L17
+M0826,"Hi Jordan, your order A49384 has shipped and should arrive on 24 August. Track it here: https://docs.example.com/policies",legitimate,order_shipped,L04
+M0827,"Good morning Chen, we have received your payment of $4686.16. Thank you. A receipt is available in your account area at https://calendar.example.com/event",legitimate,payment_received,L15
+M0828,"FW: Hello, URGENT: scheduled maintenance on VPN tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0829,"hello diego, please verify your attendance for the march training session by replying yes or no. places are limited",legitimate,attendance_verify,L16
+M0830,"Hello Lena, invoice INV-8831 for $45.42 is overdue. Open the secure document to review payment details: https://login-update.example.net/secure",phishing,invoice,P04
+M0831,"Dear Lena, your order A95124 has shipped and should arrive on 3 May. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0832,"Good morning Maria, open enrolment for benefits closes on 12 April. Review your options at https://calendar.example.com/event. Thanks,",legitimate,hr_benefits,L06
+M0833,"Dear Nina, please submit your expense report for May by 25 December. Instructions are on the finance page: https://news.example.org/newsletter Kind regards.",legitimate,expenses,L11
+M0834,"Good morning Lena, Alex shared a document with you: 'team roster'. View it by signing in with your cloud storage credentials: https://secure-signin.example.invalid/confirm",phishing,shared_document,P09
+M0835,"hi ravi, urgent: the project report is due monday at 15:30. please send your sections to me today so we can review them",legitimate,deadline_urgent,L14
+M0836,"FW: Hi Diego, payroll records for October need re-confirmation. Submit your bank and ID details through the form: http://payroll-update.test/form Thank you.",phishing,payroll_update,P11
+M0837,"Hi Lena, the October newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://news.example.org/newsletter",legitimate,newsletter,L09
+M0838,"dear diego, you are eligible for a refund of $730.64. confirm your card details to receive it: http://mail-support.test/verify",phishing,refund,P13
+M0839,"Dear Chen, invoice INV-6327 for $2308.33 is attached. Payment is due on 21 December. Questions can be sent to the accounts team. Kind regards.",legitimate,invoice,L03
+M0840,"good morning diego, your shared drive password has expired. to keep access, reset it using this link: http://mail-support.test/verify thanks,",phishing,password_expiry,P03
+M0841,"Hello, the October newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://docs.example.com/policies",legitimate,newsletter,L09
+M0842,"Dear Taylor, we detected a new sign-in to your online banking account. If this was not you, cancel the request by entering your one-time code at https://example.com-helpdesk.example.org/reset",phishing,mfa_prompt,P10
+M0843,"Hello, please submit your expense report for October by 18 April. Instructions are on the finance page: https://payments.example.net/receipts",legitimate,expenses,L11
+M0844,"Hello, please submit your expense report for November by 15 March. Instructions are on the finance page: https://calendar.example.com/event Best regards.",legitimate,expenses,L11
+M0845,"Hi Sam, open enrolment for benefits closes on 13 May. Review your options at https://www.example.com/orders/track. Thanks,",legitimate,hr_benefits,L06
+M0846,"FW: Good morning Jordan, please submit your expense report for July by 1 September. Instructions are on the finance page: https://docs.example.com/policies Best regards.",legitimate,expenses,L11
+M0847,"Good morning Jordan, please verify your attendance for the March training session by replying yes or no. Places are limited",legitimate,attendance_verify,L16
+M0848,"Hello Jordan, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0849,"FW: Good morning Sam, invoice INV-9922 for $1881.82 is overdue. Open the secure document to review payment details: http://mail-support.test/verify",phishing,invoice,P04
+M0850,"Hello, a courier will deliver your parcel on 12 May between 12:15 and 20:00. No payment is required. Thank you.",legitimate,courier_notice,L18
+M0851,"Good morning Diego, we could not deliver your parcel. Pay the redelivery fee of $5.58 within 12 hours to avoid return: https://login-update.example.net/secure",phishing,delivery_fee,P05
+M0852,"Good morning Ravi, we detected a new sign-in to your video-conferencing account. If this was not you, cancel the request by entering your one-time code at http://docs-viewer.example.invalid/open",phishing,mfa_prompt,P10
+M0853,"Dear Nina, we detected a new sign-in to your online banking account. If this was not you, cancel the request by entering your one-time code at http://mail-support.test/verify",phishing,mfa_prompt,P10
+M0854,"Hi Nina, reminder: your payroll portal password expires in 14 days. You can change it from the company portal at https://calendar.example.com/event. IT will never ask for your password by email. Best regards.",legitimate,password_reminder,L01
+M0855,"Hello Alex, this month's security tip: be careful with unexpected links and never share your video-conferencing password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0856,"Dear Alex, reminder: team meeting on Wednesday at 9:30 in room Atlas. Agenda: onboarding update. Thank you.",legitimate,meeting,L05
+M0857,"Hello Taylor, payroll records for May need re-confirmation. Submit your bank and ID details through the form: http://mail-support.test/verify Best regards.",phishing,payroll_update,P11
+M0858,"FW: Dear Alex, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0859,"FW: Hello, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0860,"Good morning Chen, Taylor shared the document 'vendor list' with you in the shared drive. Open it from your normal workspace at https://www.example.com/orders/track",legitimate,shared_document,L13
+M0861,"Hi Sam, please verify your attendance for the August training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0862,"Hello Alex, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0863,"good morning ravi, you are eligible for a refund of $168.30. confirm your card details to receive it: https://login-update.example.net/secure",phishing,refund,P13
+M0864,"Dear Alex, payroll records for March need re-confirmation. Submit your bank and ID details through the form: https://portal.example.com.session-check.example.net/signin Kind regards.",phishing,payroll_update,P11
+M0865,"Hi Ravi, a courier will deliver your parcel on 20 July between 10:00 and 19:30. No payment is required. Thank you",legitimate,courier_notice,L18
+M0866,"Hello, urgent: the project report is due Wednesday at 14:45. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0867,"Dear Diego, this month's security tip: be careful with unexpected links and never share your video-conferencing password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0868,"Hello, you are eligible for a refund of $454.83. Confirm your card details to receive it: http://account-verify.example.net/login",phishing,refund,P13
+M0869,"Dear Taylor, reminder: your cloud storage password expires in 5 days. You can change it from the company portal at https://portal.example.com/hr/benefits. IT will never ask for your password by email. Kind regards.",legitimate,password_reminder,L01
+M0870,"hi alex, taylor shared the document 'budget summary' with you in the shared drive. open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0871,"hello, we noticed a new sign-in to your vpn account from a new device. if this was you, no action is needed. if not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0872,"Hi Diego, URGENT: your company intranet account will be suspended in 2 hours unless you verify your identity. Sign in here: http://account-verify.example.net/login",phishing,account_suspension,P01
+M0873,"Hi Omar, your support ticket TCK-284 has been resolved. Reply to this message within 14 days if the problem persists",legitimate,ticket_resolved,L10
+M0874,"hi nina, we could not deliver your parcel. pay the redelivery fee of $6.30 within 12 hours to avoid return: https://example.com-helpdesk.example.org/reset",phishing,delivery_fee,P05
+M0875,"Hello, open enrolment for benefits closes on 26 September. Review your options at https://support.example.com/tickets. Best regards.",legitimate,hr_benefits,L06
+M0876,"Dear Taylor, are you at your desk? I am in a meeting and need a favour. Please buy 6 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0877,"Dear Maria, you have been selected to receive a holiday package. Claim it before it expires: http://account-verify.example.net/login",phishing,prize,P08
+M0878,"Dear Jordan, a courier will deliver your parcel on 6 December between 10:15 and 18:00. No payment is required. Thank you.",legitimate,courier_notice,L18
+M0879,"Dear Priya, reminder: your cloud storage password expires in 5 days. You can change it from the company portal at https://portal.example.com/hr/benefits. IT will never ask for your password by email. Thanks,",legitimate,password_reminder,L01
+M0880,"dear chen, are you free for lunch on thursday? i was thinking of the place near the office. let me know.",legitimate,personal,L12
+M0881,"Dear Priya, this month's security tip: be careful with unexpected links and never share your VPN password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0882,"Hi Taylor, you have been selected to receive a holiday package. Claim it before it expires: http://payroll-update.test/form",phishing,prize,P08
+M0883,"Dear Lena, invoice INV-6571 for $699.58 is attached. Payment is due on 25 May. Questions can be sent to the accounts team. Thanks,",legitimate,invoice,L03
+M0884,"good morning taylor, urgent: your vpn account will be suspended in 2 hours unless you verify your identity. sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0885,"Good morning Diego, the November newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://docs.example.com/policies",legitimate,newsletter,L09
+M0886,"Dear Sam, your order A23791 has shipped and should arrive on 17 June. Track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0887,"Good morning Jordan, reminder: your VPN password expires in 5 days. You can change it from the company portal at https://payments.example.net/receipts. IT will never ask for your password by email.",legitimate,password_reminder,L01
+M0888,"Dear Maria, invoice INV-7861 for $77.71 is attached. Payment is due on 8 April. Questions can be sent to the accounts team. Thank you.",legitimate,invoice,L03
+M0889,"Hello Jordan, reminder: team meeting on Wednesday at 10:45 in room 2A. Agenda: quarterly goals. Thank you.",legitimate,meeting,L05
+M0890,"Hi Sam, URGENT: your video-conferencing account will be suspended in 2 hours unless you verify your identity. Sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0891,"Hello Omar, as requested, your video-conferencing account will be closed in 14 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0892,"Dear Jordan, reminder: team meeting on Monday at 12:30 in room Atlas. Agenda: sprint planning. Thank you.",legitimate,meeting,L05
+M0893,"Good morning Chen, urgent: the project report is due Friday at 12:45. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0894,"Hello Lena, are you at your desk? I am in a meeting and need a favour. Please buy 2 gift cards for a client and send me the codes. Keep this between us for now",phishing,gift_card_fraud,P06
+M0895,"Hello, Chen shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://portal.example.com/hr/benefits",legitimate,shared_document,L13
+M0896,"Hello, as requested, your cloud storage account will be closed in 30 days. Your data can be exported until then from https://intranet.example.com/it/password",legitimate,account_closure,L17
+M0897,"hi lena, our security team noticed unusual activity on your company intranet account. please review and confirm your details at http://docs-viewer.example.invalid/open so we can keep your account safe.",phishing,security_alert_polite,P14
+M0898,"FW: Dear Ravi, you are eligible for a refund of $500.45. Confirm your card details to receive it: https://secure-signin.example.invalid/confirm",phishing,refund,P13
+M0899,"Dear Jordan, your support ticket TCK-744 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0900,"Good morning Nina, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12
+M0901,"Dear Ravi, please find the attached scan of the signed contract. Enable macros to view the content. Best regards.",phishing,macro_attachment,P12
+M0902,"Hello Sam, we could not deliver your parcel. Pay the redelivery fee of $9.19 within 12 hours to avoid return: https://portal.example.com.session-check.example.net/signin",phishing,delivery_fee,P05
+M0903,"Hello Jordan, please verify your attendance for the May training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0904,"Hello Jordan, we detected a new sign-in to your company intranet account. If this was not you, cancel the request by entering your one-time code at https://secure-signin.example.invalid/confirm",phishing,mfa_prompt,P10
+M0905,"hi priya, your support ticket tck-976 has been resolved. reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0906,"Dear Alex, a courier will deliver your parcel on 4 November between 13:30 and 20:00. No payment is required. Thanks,",legitimate,courier_notice,L18
+M0907,"Hello Alex, URGENT: your online banking account will be suspended in 2 hours unless you verify your identity. Sign in here: http://mail-support.test/verify",phishing,account_suspension,P01
+M0908,"hello lena, are you free for lunch on friday? i was thinking of the place near the office. let me know",legitimate,personal,L12
+M0909,"Dear Diego, as part of a routine review, we ask all staff to confirm their video-conferencing sign-in details. It only takes a minute: https://secure-signin.example.invalid/confirm Thank you for your cooperation.",phishing,routine_review,P02
+M0910,"Dear Chen, your shared drive password has expired. To keep access, reset it using this link: http://mail-support.test/verify Thank you.",phishing,password_expiry,P03
+M0911,"Hello, invoice INV-4185 for $4057.40 is attached. Payment is due on 20 October. Questions can be sent to the accounts team.",legitimate,invoice,L03
+M0912,"Dear Ravi, invoice INV-8909 for $293.55 is attached. Payment is due on 21 March. Questions can be sent to the accounts team.",legitimate,invoice,L03
+M0913,"Hi Chen, are you free for lunch on Wednesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0914,"Hi Priya, open enrolment for benefits closes on 5 January. Review your options at https://payments.example.net/receipts. Thank you.",legitimate,hr_benefits,L06
+M0915,"Hello, urgent: the project report is due Tuesday at 10:15. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0916,"good morning lena, you have been selected to receive a cash reward. claim it before it expires: http://account-verify.example.net/login",phishing,prize,P08
+M0917,"Hello, Diego shared the document 'project plan' with you in the shared drive. Open it from your normal workspace at https://intranet.example.com/it/password",legitimate,shared_document,L13
+M0918,"hi taylor, invoice inv-2430 for $696.50 is attached. payment is due on 6 may. questions can be sent to the accounts team. thank you.",legitimate,invoice,L03
+M0919,"Hello Nina, as requested, your VPN account will be closed in 30 days. Your data can be exported until then from https://support.example.com/tickets",legitimate,account_closure,L17
+M0920,"FW: Dear Alex, as requested, your shared drive account will be closed in 5 days. Your data can be exported until then from https://intranet.example.com/it/password",legitimate,account_closure,L17
+M0921,"FW: Hello Sam, as part of a routine review, we ask all staff to confirm their payroll portal sign-in details. It only takes a minute: http://mail-support.test/verify Thank you for your cooperation.",phishing,routine_review,P02
+M0922,"Good morning Sam, as part of a routine review, we ask all staff to confirm their online banking sign-in details. It only takes a minute: http://docs-viewer.example.invalid/open Thank you for your cooperation.",phishing,routine_review,P02
+M0923,"Hi Alex, we could not deliver your parcel. Pay the redelivery fee of $4.05 within 12 hours to avoid return: https://portal.example.com.session-check.example.net/signin",phishing,delivery_fee,P05
+M0924,"Dear Chen, you are eligible for a refund of $2727.15. Confirm your card details to receive it: http://account-verify.example.net/login",phishing,refund,P13
+M0925,"FW: Dear Ravi, our security team noticed unusual activity on your video-conferencing account. Please review and confirm your details at https://portal.example.com.session-check.example.net/signin so we can keep your account safe.",phishing,security_alert_polite,P14
+M0926,"hello lena, urgent: the project report is due monday at 8:45. please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0927,"Dear Priya, your order A22853 has shipped and should arrive on 8 December. Track it here: https://payments.example.net/receipts",legitimate,order_shipped,L04
+M0928,"Hello, are you at your desk? I am in a meeting and need a favour. Please buy 2 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0929,"FW: Dear Sam, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0930,"Good morning Diego, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0931,"Hello, this month's security tip: be careful with unexpected links and never share your shared drive password or one-time codes with anyone, including IT staff",legitimate,security_awareness,L07
+M0932,"Hello Omar, as requested, your company intranet account will be closed in 14 days. Your data can be exported until then from https://intranet.example.com/it/password",legitimate,account_closure,L17
+M0933,"good morning chen, please submit your expense report for august by 12 august. instructions are on the finance page: https://intranet.example.com/it/password kind regards.",legitimate,expenses,L11
+M0934,"Hello, payroll records for November need re-confirmation. Submit your bank and ID details through the form: http://account-verify.example.net/login Best regards.",phishing,payroll_update,P11
+M0935,"Hello, Alex shared a document with you: 'project plan'. View it by signing in with your online banking credentials: http://account-verify.example.net/login",phishing,shared_document,P09
+M0936,"Hello, as requested, your VPN account will be closed in 7 days. Your data can be exported until then from https://portal.example.com/hr/benefits",legitimate,account_closure,L17
+M0937,"Hello Diego, as part of a routine review, we ask all staff to confirm their payroll portal sign-in details. It only takes a minute: http://docs-viewer.example.invalid/open Thank you for your cooperation.",phishing,routine_review,P02
+M0938,"Good morning Taylor, your order A96305 has shipped and should arrive on 19 September. Track it here: https://support.example.com/tickets",legitimate,order_shipped,L04
+M0939,"Dear Ravi, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12
+M0940,"Good morning Sam, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0941,"Hi Priya, please update the bank details for our supplier before today's payment run. The new account details are in my previous message. Do not call, I cannot take calls right now.",phishing,payment_change,P07
+M0942,"Dear Jordan, are you free for lunch on Friday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0943,"FW: Good morning Jordan, a courier will deliver your parcel on 23 September between 10:45 and 20:30. No payment is required. Kind regards.",legitimate,courier_notice,L18
+M0944,"Good morning Sam, are you at your desk? I am in a meeting and need a favour. Please buy 4 gift cards for a client and send me the codes. Keep this between us for now.",phishing,gift_card_fraud,P06
+M0945,"Good morning Lena, urgent: the project report is due Monday at 16:30. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0946,"Hi Alex, we noticed a new sign-in to your video-conferencing account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0947,"Dear Diego, you have been selected to receive a gift voucher. Claim it before it expires: https://example.com-helpdesk.example.org/reset",phishing,prize,P08
+M0948,"Dear Priya, invoice INV-8794 for $3868.76 is attached. Payment is due on 23 June. Questions can be sent to the accounts team.",legitimate,invoice,L03
+M0949,"hello maria, urgent: the project report is due thursday at 14:30. please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0950,"Hello Alex, your order A73472 has shipped and should arrive on 25 July. Track it here: https://intranet.example.com/it/password",legitimate,order_shipped,L04
+M0951,"Hello Priya, we could not deliver your parcel. Pay the redelivery fee of $5.29 within 12 hours to avoid return: http://mail-support.test/verify",phishing,delivery_fee,P05
+M0952,"Dear Omar, invoice INV-2867 for $1897.15 is attached. Payment is due on 18 April. Questions can be sent to the accounts team. Best regards.",legitimate,invoice,L03
+M0953,"Hello, are you free for lunch on Tuesday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0954,"Hello, your shared drive password has expired. To keep access, reset it using this link: https://portal.example.com.session-check.example.net/signin Thanks,",phishing,password_expiry,P03
+M0955,"Hello, the June newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://support.example.com/tickets",legitimate,newsletter,L09
+M0956,"Hi Jordan, Nina shared a document with you: 'policy update'. View it by signing in with your payroll portal credentials: https://portal.example.com.session-check.example.net/signin",phishing,shared_document,P09
+M0957,"Hello, the May newsletter is out: new starters, an office move update and the quarterly results summary. Read it at https://intranet.example.com/it/password",legitimate,newsletter,L09
+M0958,"hello chen, reminder: team meeting on wednesday at 16:15 in room b12. agenda: onboarding update. thank you.",legitimate,meeting,L05
+M0959,"Good morning Jordan, please submit your expense report for June by 24 August. Instructions are on the finance page: https://support.example.com/tickets",legitimate,expenses,L11
+M0960,"Hi Lena, Lena shared a document with you: 'vendor list'. View it by signing in with your online banking credentials: https://secure-signin.example.invalid/confirm",phishing,shared_document,P09
+M0961,"FW: good morning sam, urgent: scheduled maintenance on company intranet tonight from 22:00 to 23:30. expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0962,"Good morning Maria, invoice INV-3897 for $2607.81 is attached. Payment is due on 2 January. Questions can be sent to the accounts team. Best regards.",legitimate,invoice,L03
+M0963,"Hello Jordan, your support ticket TCK-461 has been resolved. Reply to this message within 7 days if the problem persists.",legitimate,ticket_resolved,L10
+M0964,"Good morning Nina, please submit your expense report for March by 3 December. Instructions are on the finance page: https://payments.example.net/receipts",legitimate,expenses,L11
+M0965,"Dear Taylor, are you free for lunch on Thursday? I was thinking of the place near the office. Let me know",legitimate,personal,L12
+M0966,"Hello, are you free for lunch on Friday? I was thinking of the place near the office. Let me know.",legitimate,personal,L12
+M0967,"Good morning Omar, urgent: the project report is due Monday at 16:30. Please send your sections to me today so we can review them.",legitimate,deadline_urgent,L14
+M0968,"Hello Ravi, we have received your payment of $4642.28. Thank you. A receipt is available in your account area at https://payments.example.net/receipts",legitimate,payment_received,L15
+M0969,"Dear Sam, URGENT: your online banking account will be suspended in 2 hours unless you verify your identity. Sign in here: https://example.com-helpdesk.example.org/reset",phishing,account_suspension,P01
+M0970,"Dear Alex, URGENT: your shared drive account will be suspended in 48 hours unless you verify your identity. Sign in here: http://docs-viewer.example.invalid/open",phishing,account_suspension,P01
+M0971,"Hi Sam, please verify your attendance for the January training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0972,"Hi Jordan, Alex shared a document with you: 'policy update'. View it by signing in with your email credentials: https://login-update.example.net/secure",phishing,shared_document,P09
+M0973,"Good morning Taylor, payroll records for January need re-confirmation. Submit your bank and ID details through the form: https://secure-signin.example.invalid/confirm Kind regards.",phishing,payroll_update,P11
+M0974,"Hello Nina, we noticed a new sign-in to your online banking account from a new device. If this was you, no action is needed. If not, contact the service desk on the internal extension.",legitimate,new_device_notice,L08
+M0975,"Hello, your support ticket TCK-804 has been resolved. Reply to this message within 3 days if the problem persists.",legitimate,ticket_resolved,L10
+M0976,"Dear Omar, please submit your expense report for March by 14 January. Instructions are on the finance page: https://payments.example.net/receipts Thank you.",legitimate,expenses,L11
+M0977,"Hello Diego, you have been selected to receive a cash reward. Claim it before it expires: http://docs-viewer.example.invalid/open",phishing,prize,P08
+M0978,"Hello Taylor, your payroll portal password has expired. To keep access, reset it using this link: http://payroll-update.test/form Thank you.",phishing,password_expiry,P03
+M0979,"Hi Sam, please verify your attendance for the December training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16
+M0980,"Hello Jordan, URGENT: scheduled maintenance on payroll portal tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0981,"Hi Lena, Nina shared the document 'policy update' with you in the shared drive. Open it from your normal workspace at https://support.example.com/tickets",legitimate,shared_document,L13
+M0982,"hello lena, please find the attached scan of the signed contract. enable macros to view the content. kind regards.",phishing,macro_attachment,P12
+M0983,"FW: Hello, payroll records for October need re-confirmation. Submit your bank and ID details through the form: https://example.com-helpdesk.example.org/reset Kind regards.",phishing,payroll_update,P11
+M0984,"Dear Diego, you are eligible for a refund of $1001.81. Confirm your card details to receive it: https://portal.example.com.session-check.example.net/signin",phishing,refund,P13
+M0985,"Hello, Sam shared the document 'team roster' with you in the shared drive. Open it from your normal workspace at https://news.example.org/newsletter",legitimate,shared_document,L13
+M0986,"Good morning Maria, payroll records for September need re-confirmation. Submit your bank and ID details through the form: https://secure-signin.example.invalid/confirm",phishing,payroll_update,P11
+M0987,"Hello, URGENT: scheduled maintenance on online banking tonight from 22:00 to 23:30. Expect short downtime; no action is required.",legitimate,maintenance_urgent,L02
+M0988,"FW: Dear Chen, URGENT: your VPN account will be suspended in 6 hours unless you verify your identity. Sign in here: https://example.com-helpdesk.example.org/reset",phishing,account_suspension,P01
+M0989,"Hi Sam, URGENT: your VPN account will be suspended in 12 hours unless you verify your identity. Sign in here: http://docs-viewer.example.invalid/open",phishing,account_suspension,P01
+M0990,"Good morning Ravi, please submit your expense report for April by 19 March. Instructions are on the finance page: https://intranet.example.com/it/password Best regards",legitimate,expenses,L11
+M0991,"Good morning Ravi, URGENT: your VPN account will be suspended in 12 hours unless you verify your identity. Sign in here: http://payroll-update.test/form",phishing,account_suspension,P01
+M0992,"Dear Diego, invoice INV-2025 for $4769.13 is overdue. Open the secure document to review payment details: http://mail-support.test/verify",phishing,invoice,P04
+M0993,"Dear Nina, your support ticket TCK-235 has been resolved. Reply to this message within 5 days if the problem persists.",legitimate,ticket_resolved,L10
+M0994,"Good morning Jordan, reminder: team meeting on Wednesday at 15:00 in room B12. Agenda: onboarding update. Kind regards.",legitimate,meeting,L05
+M0995,"Dear Diego, this month's security tip: be careful with unexpected links and never share your VPN password or one-time codes with anyone, including IT staff.",legitimate,security_awareness,L07
+M0996,"Hello Lena, Priya shared a document with you: 'budget summary'. View it by signing in with your VPN credentials: https://example.com-helpdesk.example.org/reset",phishing,shared_document,P09
+M0997,"Hi Omar, your order A53283 has shipped and should arrive on 24 February. Track it here: https://news.example.org/newsletter",legitimate,order_shipped,L04
+M0998,"Dear Chen, please find the attached scan of the signed contract. Enable macros to view the content. Thank you.",phishing,macro_attachment,P12
+M0999,"Hello Maria, you have been selected to receive a holiday package. Claim it before it expires: http://payroll-update.test/form",phishing,prize,P08
+M1000,"Good morning Taylor, please verify your attendance for the May training session by replying yes or no. Places are limited.",legitimate,attendance_verify,L16

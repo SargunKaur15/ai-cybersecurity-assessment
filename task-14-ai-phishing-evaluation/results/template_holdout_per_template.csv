@@ -1,0 +1,9 @@
+template_id,category,label,n,errors,mean_phishing_probability,correct_rate
+L01,password_reminder,legitimate,26,0,0.178,1.0
+L04,order_shipped,legitimate,47,0,0.265,1.0
+L09,newsletter,legitimate,34,0,0.211,1.0
+L18,courier_notice,legitimate,35,0,0.235,1.0
+P02,routine_review,phishing,27,0,0.699,1.0
+P03,password_expiry,phishing,26,0,0.617,1.0
+P04,invoice,phishing,19,2,0.535,0.8947
+P12,macro_attachment,phishing,27,27,0.236,0.0

@@ -1,0 +1,4 @@
+setting,failure_threshold,window_minutes,spray_user_threshold,total_alerts,low,medium,high,attack_like_scenarios_flagged,benign_scenarios_flagged
+Strict,10,10.0,5,3,1,2,0,S2;S4,S5
+Default,5,10.0,5,5,1,4,0,S2;S3;S4,S5
+Relaxed,3,120.0,5,8,1,6,1,S2;S3;S4;S6,S1;S5

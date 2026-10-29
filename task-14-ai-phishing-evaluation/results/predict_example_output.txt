@@ -1,0 +1,16 @@
+> python src/predict.py "URGENT: your payroll portal account will be suspended in 12 hours unless you verify your identity. Sign in here: http://account-verify.example.net/login"
+phishing-like    P(phishing)=0.8821  | URGENT: your payroll portal account will be suspended in 12 hours unless you verify your identity. S
+Note: research demo trained on synthetic data; not a reliable or standalone security control.
+
+> python src/predict.py "Hello Sam, reminder: team meeting on Monday at 10:00 in room B12. Agenda: budget check-in."
+legitimate-like  P(phishing)=0.1341  | Hello Sam, reminder: team meeting on Monday at 10:00 in room B12. Agenda: budget check-in.
+Note: research demo trained on synthetic data; not a reliable or standalone security control.
+
+> python src/predict.py "Hi, are you free? Need a quick favour."
+legitimate-like  P(phishing)=0.3866  | Hi, are you free? Need a quick favour.
+Note: research demo trained on synthetic data; not a reliable or standalone security control.
+
+> python src/predict.py "Invoice INV-5521 is overdue. Please arrange payment by bank transfer to the account on the original invoice, or contact accounts if you disagree."
+legitimate-like  P(phishing)=0.2541  | Invoice INV-5521 is overdue. Please arrange payment by bank transfer to the account on the original 
+Note: research demo trained on synthetic data; not a reliable or standalone security control.
+
