@@ -12,7 +12,6 @@ Cybersecurity Assessment, **Task 14: Evaluate an AI Security Claim**
 | | |
 |---|---|
 | Author | Sargun Kaur |
-| Student / Applicant ID | Not applicable |
 | Submission date | 29 October 2026 |
 | Final results generated | 2026-10-29 (Python 3.14.7, Windows 11) |
 | Repository | https://github.com/SargunKaur15/ai-cybersecurity-assessment |

@@ -142,6 +142,7 @@ def build_html(task: dict, meta: dict, page_numbers: dict[str, int]) -> tuple[st
     subtitle = {"14": "TF-IDF and Logistic Regression on synthetic messages, tested with whole templates held out", "13": "Python authentication-log analyzer with explainable, evidence-backed alerts"}[task["label"][-2:]]
     rows = [("Author", meta["author"]), ("Student / Applicant ID", meta["student_id"]), ("Submission date", meta["submission_date"]),
             ("Repository", meta["repository"]), ("Final results generated", results_date)]
+    rows = [(k, v) for k, v in rows if v]  # a field left empty in report_metadata.json is omitted from the cover
     meta_rows = "".join(f"<tr><td>{html.escape(k)}</td><td>{html.escape(v)}</td></tr>" for k, v in rows)
     cover = f"""
 <section class="cover"><div class="band"><div class="kicker">Cybersecurity Assessment &middot; {task['label']}</div>

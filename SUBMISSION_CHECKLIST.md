@@ -74,7 +74,7 @@ Submission rules from the PDF: submit a Git repository or a documentation file; 
 ## 5. Status and what is left for you
 
 - [x] **Name:** Sargun Kaur (cover pages, both `report.md` title pages and PDF metadata).
-- [x] **Student ID:** none assigned; the cover and title pages say "Not applicable".
+- [x] **Student ID:** none assigned, so the field is omitted from the cover and title pages (leave `student_id` empty in `reports/report_metadata.json`).
 - [x] **Submission date:** 29 October 2026 (as you provided it).
 - [x] **Repository URL:** https://github.com/SargunKaur15/ai-cybersecurity-assessment (public).
 - [x] **Screenshots:** four real console screenshots per task are in each `screenshots/` folder and embedded in report section 12 (capture method: see each `screenshots/README.md`).

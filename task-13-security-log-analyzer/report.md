@@ -12,7 +12,6 @@ Cybersecurity Assessment, **Task 13: Build a Small Defensive Security Tool**
 | | |
 |---|---|
 | Author | Sargun Kaur |
-| Student / Applicant ID | Not applicable |
 | Submission date | 29 October 2026 |
 | Final results generated | 2026-10-29 (Python 3.14.7, Windows 11) |
 | Repository | https://github.com/SargunKaur15/ai-cybersecurity-assessment |
